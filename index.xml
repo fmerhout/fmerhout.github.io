@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Using Internet search data to examine the relationship between anti-Muslim and pro-ISIS sentiment in U.S. counties</title>
+      <link>/publication/bail-merhout-ding-2018/</link>
+      <pubDate>Tue, 21 Aug 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/publication/bail-merhout-ding-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Privacy Policy</title>
       <link>/privacy/</link>
       <pubDate>Thu, 28 Jun 2018 00:00:00 -0400</pubDate>
@@ -246,16 +255,6 @@ git submodule update --init --recursive
     </item>
     
     <item>
-      <title>A Person Re-Identification System For Mobile Devices</title>
-      <link>/publication/person-re-identification/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 -0400</pubDate>
-      
-      <guid>/publication/person-re-identification/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Hello R Markdown</title>
       <link>/post/2015-07-23-r-rmarkdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
@@ -300,16 +299,6 @@ Figure 1: A fancy pie chart.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Mobile visual clothing search</title>
-      <link>/publication/clothing-search/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 -0400</pubDate>
-      
-      <guid>/publication/clothing-search/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
     
