@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trial and Error on Friedolin Merhout</title>
+    <link>/tags/trial-and-error/</link>
+    <description>Recent content in Trial and Error on Friedolin Merhout</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Tue, 21 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/trial-and-error/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello World!</title>
+      <link>/post/hello-world/</link>
+      <pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/hello-world/</guid>
+      <description>I started using blogdown. It&amp;rsquo;s great. And a time sink.</description>
+    </item>
+    
+  </channel>
+</rss>
