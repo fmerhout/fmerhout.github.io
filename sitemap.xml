@@ -4,6 +4,14 @@
     
     <url>
     
+      <loc>/project/nazi-biograms/</loc>
+      <lastmod>2018-08-22T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/publication/bail-merhout-ding-2018/</loc>
       <lastmod>2018-08-21T00:00:00-04:00</lastmod>
     </url>
@@ -52,22 +60,6 @@
     
     <url>
     
-      <loc>/project/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/project/example-external-project/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/post/getting-started/</loc>
       <lastmod>2018-01-13T00:00:00-05:00</lastmod>
     </url>
@@ -93,34 +85,7 @@
     
     <url>
     
-      <loc>/tags/academic/</loc>
-      <lastmod>2018-01-13T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/demo/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -137,8 +102,8 @@
     
     <url>
     
-      <loc>/tags/plot/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+      <loc>/tags/nazi-biograms/</loc>
+      <lastmod>2018-08-22T00:00:00-04:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -147,7 +112,7 @@
     <url>
     
       <loc>/project/</loc>
-      <lastmod>2016-04-27T00:00:00-04:00</lastmod>
+      <lastmod>2018-08-22T00:00:00-04:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -164,6 +129,15 @@
     
     <url>
     
+      <loc>/tags/quantitative-text-analysis/</loc>
+      <lastmod>2018-08-22T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/categories/r/</loc>
       <lastmod>2015-07-23T21:13:14-05:00</lastmod>
       <priority>0</priority>
@@ -173,26 +147,17 @@
     
     <url>
     
-      <loc>/tags/r-markdown/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/regression/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/tags/</loc>
-      <lastmod>2018-01-13T00:00:00-05:00</lastmod>
+      <lastmod>2018-08-22T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/textnets/</loc>
+      <lastmod>2018-08-22T00:00:00-04:00</lastmod>
       <priority>0</priority>
     </url>
     

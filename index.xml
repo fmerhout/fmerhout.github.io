@@ -11,6 +11,18 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Quantitative Text Analysis of NSDAP Member Autobiographies</title>
+      <link>/project/nazi-biograms/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/project/nazi-biograms/</guid>
+      <description>&lt;p&gt;The Hoover Institution recently finished digitizing &lt;a href=&#34;https://www.hoover.org/news/newly-digitized-nazi-biograms-now-available&#34; target=&#34;_blank&#34;&gt;586 Nazi biograms collected by Theodore Abel&lt;/a&gt;, professor of sociology at Columbia University from 1929 to 1950. Abel gathered these documents a year after Hitler&amp;rsquo;s appointment as chancellor by setting up a contest offering 400 German marks &amp;ldquo;for the best personal life history of an adherent of the Hitler movement.&amp;rdquo; The collection which represents a sample of 2.5% of early NSDAP members forms the basis for Abel&amp;rsquo;s insightful book &lt;a href=&#34;http://www.hup.harvard.edu/catalog.php?isbn=9780674952003&#34; target=&#34;_blank&#34;&gt;Why Hitler Came Into Power&lt;/a&gt; published in 1938.&lt;/p&gt;
+
+&lt;p&gt;With the increasing sophistication of quantitative text analysis coinciding with the public release of the collection, we are now presented with the opportunity to reanalyze these data with computational methods. Earlier applications of such methods already highlighted the value of these data to reveal the &lt;a href=&#34;https://doi.org/10.1016/S0304-422X[99]00022-4&#34; target=&#34;_blank&#34;&gt;narrative structures of becoming and being a Nazi&lt;/a&gt;, but to leverage the full potential of new computational methods the complete collection needs to be converted into a machine readable format. To create these machine readable files, this project will use the optical character recognition software from the leader in the field ABBYY which is accessible through their cloud based &lt;a href=&#34;https://ocrsdk.com/&#34; target=&#34;_blank&#34;&gt;ABBYY OCR SDK&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Using Internet search data to examine the relationship between anti-Muslim and pro-ISIS sentiment in U.S. counties</title>
       <link>/publication/bail-merhout-ding-2018/</link>
       <pubDate>Tue, 21 Aug 2018 00:00:00 -0400</pubDate>
@@ -37,33 +49,6 @@
       <guid>/talk/example-talk/</guid>
       <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://sourcethemes.com/academic/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Deep Learning</title>
-      <link>/project/deep-learning/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
-      
-      <guid>/project/deep-learning/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>External Project</title>
-      <link>/project/example-external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 -0400</pubDate>
-      
-      <guid>/project/example-external-project/</guid>
-      <description></description>
     </item>
     
     <item>

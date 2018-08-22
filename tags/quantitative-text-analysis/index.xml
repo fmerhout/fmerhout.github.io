@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Friedolin Merhout</title>
-    <link>/project/</link>
-    <description>Recent content in Projects on Friedolin Merhout</description>
+    <title>Quantitative text analysis on Friedolin Merhout</title>
+    <link>/tags/quantitative-text-analysis/</link>
+    <description>Recent content in Quantitative text analysis on Friedolin Merhout</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Friedolin Merhout</copyright>
     <lastBuildDate>Wed, 22 Aug 2018 00:00:00 -0400</lastBuildDate>
     
-	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/quantitative-text-analysis/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
