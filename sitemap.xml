@@ -12,6 +12,14 @@
     
     <url>
     
+      <loc>/post/textnets-tutorial/</loc>
+      <lastmod>2018-08-22T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/publication/bail-merhout-ding-2018/</loc>
       <lastmod>2018-08-21T00:00:00-04:00</lastmod>
     </url>
@@ -60,16 +68,9 @@
     
     <url>
     
-      <loc>/post/getting-started/</loc>
-      <lastmod>2018-01-13T00:00:00-05:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/post/2015-07-23-r-rmarkdown/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
+      <loc>/tags/#eurocss/</loc>
+      <lastmod>2018-08-22T00:00:00-04:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -138,15 +139,6 @@
     
     <url>
     
-      <loc>/categories/r/</loc>
-      <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/tags/</loc>
       <lastmod>2018-08-22T00:00:00-04:00</lastmod>
       <priority>0</priority>
@@ -157,6 +149,15 @@
     <url>
     
       <loc>/tags/textnets/</loc>
+      <lastmod>2018-08-22T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/workshop/</loc>
       <lastmod>2018-08-22T00:00:00-04:00</lastmod>
       <priority>0</priority>
     </url>
