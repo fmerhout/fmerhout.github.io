@@ -22,14 +22,5 @@
 NB: This post describes the tentative schedule and will be updated as we finalize the details for the tutorial.</description>
     </item>
     
-    <item>
-      <title></title>
-      <link>/post/03-deploy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/post/03-deploy/</guid>
-      <description>Deployment Since the website is basically a folder containing static files, it is much easier to deploy than websites that require dynamic server-side languages such as PHP or databases. All you need is to upload the files to a server, and usually your website will be up and running shortly. The key question is which web server you want to use. If you do not have your own server, you may try the ones listed in this chapter.</description>
-    </item>
-    
   </channel>
 </rss>

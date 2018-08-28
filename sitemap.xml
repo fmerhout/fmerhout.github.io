@@ -4,6 +4,14 @@
     
     <url>
     
+      <loc>/publication/bail-etal-2018/</loc>
+      <lastmod>2018-08-28T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/project/nazi-biograms/</loc>
       <lastmod>2018-08-22T00:00:00-04:00</lastmod>
     </url>
@@ -20,7 +28,7 @@
     
     <url>
     
-      <loc>/publication/bail-merhout-ding-2018/</loc>
+      <loc>/publication/bail-merhout-ding-2018-copy/</loc>
       <lastmod>2018-08-21T00:00:00-04:00</lastmod>
     </url>
     
@@ -68,13 +76,6 @@
     
     <url>
     
-      <loc>/post/03-deploy/</loc>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/tags/#eurocss/</loc>
       <lastmod>2018-08-28T00:00:00-04:00</lastmod>
       <priority>0</priority>
@@ -85,7 +86,7 @@
     <url>
     
       <loc>/publication_types/2/</loc>
-      <lastmod>2018-08-21T00:00:00-04:00</lastmod>
+      <lastmod>2018-08-28T00:00:00-04:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -129,7 +130,7 @@
     <url>
     
       <loc>/publication_types/</loc>
-      <lastmod>2018-08-21T00:00:00-04:00</lastmod>
+      <lastmod>2018-08-28T00:00:00-04:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -166,14 +167,6 @@
     
       <loc>/tags/workshop/</loc>
       <lastmod>2018-08-28T00:00:00-04:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/xxx/</loc>
       <priority>0</priority>
     </url>
     
