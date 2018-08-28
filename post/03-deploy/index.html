@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 2.4.0">
+  <meta name="generator" content="Hugo 0.47.1" />
+  <meta name="author" content="Friedolin Merhout">
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="Deployment Since the website is basically a folder containing static files, it is much easier to deploy than websites that require dynamic server-side languages such as PHP or databases. All you need is to upload the files to a server, and usually your website will be up and running shortly. The key question is which web server you want to use. If you do not have your own server, you may try the ones listed in this chapter.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/post/03-deploy/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Friedolin Merhout">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Friedolin Merhout">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/post/03-deploy/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@fmerhout">
+  <meta property="twitter:creator" content="@fmerhout">
+  
+  <meta property="og:site_name" content="Friedolin Merhout">
+  <meta property="og:url" content="/post/03-deploy/">
+  <meta property="og:title" content=" | Friedolin Merhout">
+  <meta property="og:description" content="Deployment Since the website is basically a folder containing static files, it is much easier to deploy than websites that require dynamic server-side languages such as PHP or databases. All you need is to upload the files to a server, and usually your website will be up and running shortly. The key question is which web server you want to use. If you do not have your own server, you may try the ones listed in this chapter.">
+  <meta property="og:locale" content="en-us">
+  
+  
+  
+  
+
+  
+
+  
+
+  <title> | Friedolin Merhout</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">Friedolin Merhout</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#publications">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>Projects</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name"></h1>
+
+    
+
+<div class="article-metadata">
+
+  
+  
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Friedolin Merhout">
+  </span>
+  
+
+  <span class="article-date">
+    
+    <meta content="" itemprop="datePublished">
+    <time datetime="" itemprop="dateModified">
+      Jan 1, 0001
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Friedolin Merhout">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    16 min read
+  </span>
+  
+
+  
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=&amp;url=%2fpost%2f03-deploy%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=%2fpost%2f03-deploy%2f"
+         target="_blank" rel="noopener">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2f03-deploy%2f&amp;title="
+         target="_blank" rel="noopener">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=%2fpost%2f03-deploy%2f&amp;title="
+         target="_blank" rel="noopener">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=&amp;body=%2fpost%2f03-deploy%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+
+    <div class="article-style" itemprop="articleBody">
+      <div id="deployment" class="section level1">
+<h1>Deployment</h1>
+<p>Since the website is basically a folder containing static files, it is much easier to deploy than websites that require dynamic server-side languages such as PHP or databases. All you need is to upload the files to a server, and usually your website will be up and running shortly. The key question is which web server you want to use. If you do not have your own server, you may try the ones listed in this chapter. Most of them are free (except Amazon S3), or at least provide free plans. Disclaimer: the authors of this book are not affiliated with any of these services or companies, and there is no guarantee that these services will be provided forever.<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a></p>
+<p>Considering the cost and friendliness to beginners, we currently recommend Netlify (<a href="https://www.netlify.com" class="uri">https://www.netlify.com</a>). It provides a free plan that actually has quite a lot of useful features. If you have no experience in publishing websites before, just log in using your GitHub account or other accounts, drag the <code>public/</code> folder built by <strong>blogdown</strong> for your website to the Netlify page, and your website will be online in a few seconds with a random subdomain name of the form <code>random-word-12345.netlify.com</code> provided by Netlify (you can customize the name). You can easily automate this process (see Section <a href="#netlify"><strong>??</strong></a> for more details). You do not need to wrestle with <code>ssh</code> or <code>rsync -zrvce</code> anymore, if you know what these commands mean.</p>
+<p>The second easiest solution may be Updog (<a href="https://updog.co" class="uri">https://updog.co</a>), which features Dropbox integration. Publishing a website can be as easy as copying the files under the <code>public/</code> folder of your <strong>blogdown</strong> website to a Dropbox folder. The free plan of Updog only provides limited features, and its paid plan will give you access to much richer features.</p>
+<p>If you do not mind using command-line tools or are familiar with GIT/GitHub, you can certainly consider services like GitHub Pages, Travis CI, or Amazon S3 to build or host your websites. No matter which service you use, please keep in mind that none of them can really lock you in and you are always free to change the service. As we have mentioned before, one great advantage of <strong>blogdown</strong> is that your website will be a folder of static files that you can move to any web server.</p>
+<div id="netlify" class="section level2">
+<h2>Netlify</h2>
+<p>As we just mentioned, Netlify allows you to quickly publish a website by uploading the <code>public/</code> folder through its web interface, and you will be assigned a random subdomain <code>*.netlify.com</code>.<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a> This approach is good for those websites that are not updated frequently (or at all). However, it is unlikely that you will not need to update your website, so we introduce a better approach in this section,<a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a> which will take you a few more minutes to complete the configurations. Once it is properly configured, all you need to do in the future is to update the source repository, and Netlify will call Hugo to render your website automatically.</p>
+<p>Basically, you have to host all source files of your website in a GIT repository.<a href="#fn4" class="footnoteRef" id="fnref4"><sup>4</sup></a> You do not need to put the <code>public/</code> directory under version control<a href="#fn5" class="footnoteRef" id="fnref5"><sup>5</sup></a> because it will be automatically generated. Currently, Netlify supports GIT repositories hosted on GitHub, GitLab, and BitBucket. With any of these accounts, you can log into Netlify from its homepage and follow the guide to create a new site from your GIT repository.</p>
+<p>Netlify supports several static website generators, including Jekyll and Hugo. For a new site, you have to specify a command to build your website, as well as the path of the publish directory. Netlify also supports multiple versions of Hugo, so the build command can be the default <code>hugo</code>. The default version is 0.17, which is too old, and we recommend that you use at least version 0.20. To specify a Hugo version greater or equal to 0.20, you need to create an environment variable <code>HUGO_VERSION</code> on Netlify. See the <a href="https://www.netlify.com/docs/continuous-deployment/">Netlify documentation</a> for more information. The publish directory should be <code>public</code> unless you have changed it in your <code>config.toml</code>. Figure <a href="#fig:netlify-settings">1</a> shows the settings of the website <a href="https://t.yihui.name" class="uri">https://t.yihui.name</a>. You do not have to follow the exact settings for your own website; in particular, you may need to change the value of the environment variable <code>HUGO_VERSION</code> to a recent version of Hugo.<a href="#fn6" class="footnoteRef" id="fnref6"><sup>6</sup></a></p>
+<div class="figure" style="text-align: center"><span id="fig:netlify-settings"></span>
+<img src="images/netlify-settings.png" alt="Example settings of a website deployed on Netlify." width="100%" />
+<p class="caption">
+Figure 1: Example settings of a website deployed on Netlify.
+</p>
+</div>
+<p>It may take a minute or two to deploy your website on Netlify for the first time, but it can be much faster later (a few seconds) when you update your website source, because Netlify deploys incremental changes in the <code>public/</code> directory, i.e., only the newer files compared to the last time are deployed.</p>
+<p>After your GIT repository is connected with Netlify, the last issue you may want to solve is the domain name, unless you are satisfied with the free Netlify subdomain. If you want to use a different domain, you need to configure some DNS records of the domain to point it to the Netlify server. See Appendix <a href="#domain-name"><strong>??</strong></a> for some background knowledge on domain names.</p>
+<p>If you are not familiar with domain names or do not want to learn more about them, something to consider is a free subdomain <code>*.rbind.io</code> offered by RStudio, Inc. Please visit the Rbind support website <a href="https://support.rbind.io" class="uri">https://support.rbind.io</a> to learn how to apply for a subdomain. In fact, the Rbind organization also offers free help on how to set up a website based on <strong>blogdown</strong>, thanks to a lot of volunteers from the R and statistics community.</p>
+<p>Netlify is the only solution in this chapter that does not require you to prebuild your website. You only need to update the source files, push them to GitHub, and Netlify will build the website for you.<a href="#fn7" class="footnoteRef" id="fnref7"><sup>7</sup></a> The rest of the solutions in this chapter will require you to build your website locally and upload the <code>public/</code> folder explicitly or implicitly. That said, you can certainly prebuild your website using any tools, push it to GitHub, and Netlify is still able to deploy it for you. What you need to do is leave the build command empty, and tell Netlify your publish directory (e.g., Hugo’s default <code>public/</code>, but if your prebuilt website is under the root directory, specify <code>.</code> as the publish directory instead). Then Netlify simply uploads all files under this directory to its servers without rebuilding your website.</p>
+</div>
+<div id="updog" class="section level2">
+<h2>Updog</h2>
+<p>Updog (<a href="https://updog.co" class="uri">https://updog.co</a>) provides a simple service: it turns a specified Dropbox (or Google Drive) folder into a website. The idea is that you grant Updog the permission to read the folder, and it will act as a middleman to serve your files under this folder to your visitors. This folder has to be accessed via a domain name, and Updog offers a free subdomain <code>*.updog.co</code>. For example, if you have assigned the domain <code>example.updog.co</code> to your Dropbox folder, and a visitor wants to see the page <code>https://example.updog.co/foo/index.html</code>, Updog will read the file <code>foo/index.html</code> in your Dropbox folder and display it to the visitor.</p>
+<p>At the moment, Updog’s free plan only allows one website per account and will insert a footer “Hosted on Updog” on your web pages. You may not like these limitations. The major benefit of using Updog is that publishing a website becomes implicit since Dropbox will continuously sync files. All you need to do is to make sure your website is generated to the correct Dropbox folder. This can be easily achieved by setting the option <code>publishDir</code> in <code>config.toml</code>. For example, suppose the folder that you assign to Updog is <code>~/Dropbox/Apps/updog/my-website/</code>, and your source folder is at <code>~/Dropbox/Apps/updog/my-source/</code>, then you can set <code>publishDir: &quot;../my-website&quot;</code> in <code>~/Dropbox/Apps/updog/my-source/config.toml</code>.</p>
+<p>You can also use your custom domain name if you do not want the default Updog subdomain, and you only need to point the CNAME record of your domain name to the Updog subdomain.<a href="#fn8" class="footnoteRef" id="fnref8"><sup>8</sup></a></p>
+</div>
+<div id="github-pages" class="section level2">
+<h2>GitHub Pages</h2>
+<p>GitHub Pages (<a href="https://pages.github.com" class="uri">https://pages.github.com</a>)  is a very popular way to host static websites (especially those built with Jekyll), but its advantages are not obvious or appealing compared to Netlify. We recommend that you consider Netlify + Hugo due to these reasons:</p>
+<ul>
+<li><p>Redirecting URLs is awkward with GitHub Pages but much more straightforward with Netlify.<a href="#fn9" class="footnoteRef" id="fnref9"><sup>9</sup></a> This is important especially when you have an old website that you want to migrate to Hugo; some links may be broken, in which case you can easily redirect them with Netlify.</p></li>
+<li><p>One of the best features of Netlify that is not available with GitHub Pages is that Netlify can generate a unique website for preview when a GitHub pull request is submitted to your GitHub repository. This is extremely useful when someone else (or even yourself) proposes changes to your website, since you have a chance to see what the website would look like before you merge the pull request.</p></li>
+</ul>
+<p>Basically, Netlify can do everything that GitHub Pages can, but there is still one little missing feature, which is closely tied to GitHub itself, which is GitHub <a href="https://help.github.com/articles/user-organization-and-project-pages/">Project Pages.</a> This feature allows you to have project websites in separate repositories, e.g., you may have two independent websites <code>https://username.github.io/proj-a/</code> and <code>https://username.github.io/proj-b/</code>, corresponding to GitHub repositories <code>username/proj-a</code> and <code>username/proj-b</code>, respectively. However, since you can connect any GitHub repositories with Netlify, and each repository can be associated with a domain or subdomain name, you may replace GitHub Project Pages with different subdomains like <code>proj-a.netlify.com</code> and <code>proj-b.netlify.com</code>. The actual limitation is that you cannot use subpaths in the URL but you can use any (sub)domain names.</p>
+<p>Although GitHub does not officially support Hugo (only Jekyll is supported), you can actually publish any static HTML files on GitHub Pages, even if they are not built with Jekyll. The first requirement for using GitHub Pages is that you have to create a GitHub repository named <code>username.github.io</code> under your account (replace <code>username</code> with your actual GitHub username), and what’s left is to push your website files to this repository. The comprehensive documentation of GitHub Pages is at <a href="https://pages.github.com" class="uri">https://pages.github.com</a>, and please ignore anything related to Jekyll there unless you actually use Jekyll instead of Hugo. To make sure GitHub does not rebuild your website using Jekyll and just publish whatever files you push to the repository, you need to create a (hidden) file named <code>.nojekyll</code> in the repository.<a href="#fn10" class="footnoteRef" id="fnref10"><sup>10</sup></a> GitHub offers a free subdomain <code>username.github.io</code>, and you can use your own domain name by configuring its A or CNAME records to point it to GitHub Pages (consult the GitHub Pages documentation for instructions).</p>
+<p>Your <code>public/</code> directory should be the GIT repository. You have two possible choices for setting up this repository locally. The first choice is to follow the default structure of a Hugo website like the diagram below, and initialize the GIT repository under the <code>public/</code> directory:</p>
+<pre class="bash"><code>source/
+│
+├── config.toml
+├── content/
+├── themes/
+├── ...
+└── public/
+    |
+    ├── .git/
+    ├── .nojekyll
+    ├── index.html
+    ├── about/
+    └── ...</code></pre>
+<p>If you know how to use the command line, change the working directory to <code>public/</code>, and initialize the GIT repository there:</p>
+<pre class="bash"><code>cd public
+git init
+git remote add origin https://github.com/username/username.github.io</code></pre>
+<p>The other choice is to clone the GitHub repository you created to the same directory as your website source:</p>
+<pre class="bash"><code>git clone https://github.com/username/username.github.io</code></pre>
+<p>And the structure looks like this:</p>
+<pre class="bash"><code>source/
+│
+├── config.toml
+├── content/
+├── themes/
+└── ...
+
+username.github.io/
+│
+├── .git/
+├── .nojekyll
+├── index.html
+├── about/
+└── ...</code></pre>
+<p>The source directory and the <code>username.github.io</code> directory are under the same parent directory. In this case, you need to set the option <code>publishDir: &quot;../username.github.io&quot;</code> in <code>source/config.toml</code>.</p>
+</div>
+<div id="travis-github" class="section level2">
+<h2>Travis + GitHub</h2>
+<p>If  you decide not to follow our recommendation to use Netlify to deploy your website, we should warn you that the approach in this section will require substantial knowledge about GIT, GitHub, Travis CI (<a href="https://travis-ci.org" class="uri">https://travis-ci.org</a>), and the Linux command line, which we will leave for you to learn on your own. The major advantage of publishing via Travis CI is that you can compile all your Rmd posts on Travis CI (on the cloud) instead of your local computer.</p>
+<p>In case you are not familiar with Travis, it is a service to continuously check your software in a virtual machine whenever you push changes to GitHub. It is primarily for testing software, but since you can run a lot of commands in its virtual machine, you can certainly use the virtual machine to do other things, e.g., install R and the <strong>blogdown</strong> package to build websites. Before I show you how, I’d like to mention two issues that you should be aware of:</p>
+<ul>
+<li><p>Personally, I prefer taking a look at the output in GIT to see the changes when I have any output that is dynamically computed from R, so that I know for sure what I’m going to publish exactly. With Travis, it is somewhat unpredictable because it is fully automatic and you do not have a chance to see the new content or results to be published. There are many factors that could affect building the site: the R version, availability of certain R packages, system dependencies, and network connection, etc.</p></li>
+<li><p>The time required to compile all Rmd files may be very long and cause timeouts on Travis, depending on how time-consuming your R code is. There is a caching mechanism in <strong>blogdown</strong> to speed up the building of your site (see Section <a href="#methods"><strong>??</strong></a>), and if you use Travis to build your website, you will not benefit from this caching mechanism unless you take advantage of Travis’s caching. You have to cache the directories <code>content/</code>, <code>static/</code>, and <code>blogdown/</code>, but Travis’s cache is a little fragile in my experience. Sometimes the cache may be purged for unknown reasons. What is more, you cannot directly cache <code>content/</code> and <code>static/</code>, because Travis clones your repository before restoring the cache, which means old files from the cached <code>content/</code> and <code>static/</code> may overwrite new files you pushed to GitHub.</p></li>
+</ul>
+<p>The second problem can be solved, but I do not want to explain how in this book since the solution is too involved. If you really want to use Travis to build your website and run into this problem, you may file an issue to the GitHub repository <a href="https://github.com/yihui/travis-blogdown" class="uri">https://github.com/yihui/travis-blogdown</a>. In fact, this repository is a minimal example I created to show how to build a website on Travis and publish to GitHub Pages.</p>
+<p>The Travis documentation shows how to deploy a site to GitHub Pages: <a href="https://docs.travis-ci.com/user/deployment/pages/" class="uri">https://docs.travis-ci.com/user/deployment/pages/</a>, but does not show how to build a site. Here is the Travis configuration file, <code>.travis.yml</code>, for the <code>travis-blogdown</code> repository:</p>
+<pre class="yaml"><code>language: r
+dist: trusty
+sudo: false
+
+branches:
+  only:
+    - master
+
+cache:
+  packages: yes
+  directories:
+    - $HOME/bin
+
+before_script:
+  - &quot;Rscript -e &#39;blogdown::install_hugo()&#39;&quot;
+
+script:
+  - &quot;Rscript -e &#39;blogdown::build_site()&#39;&quot;
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  on:
+    branch: master
+  local_dir: public
+  fqdn: travis-blogdown.yihui.name</code></pre>
+<p>The key is that we install Hugo via <code>blogdown::install_hugo()</code> and build the site via <code>blogdown::build_site()</code>. To trick Travis into building this repository like an R package, you must have a <code>DESCRIPTION</code> file in the repository, otherwise your website will not be built.</p>
+<pre class="yaml"><code>Package: placeholder
+Type: Website
+Title: Does not matter.
+Version: 0.0.1
+Imports: blogdown
+Remotes: rstudio/blogdown</code></pre>
+<p>There are a few more things to explain and emphasize in <code>.travis.yml</code>:</p>
+<ul>
+<li><p>The <code>branches</code> option specifies that only changes in the <code>master</code> branch will trigger building on Travis.</p></li>
+<li><p>The <code>cache</code> option specifies all R packages to be cached, so the next time it will be faster to build the site (R packages do not need to be reinstalled from source). The <code>bin/</code> directory in the home directory is also cached because Hugo is installed there, and the next time Hugo does not need to be reinstalled.</p></li>
+<li><p>For the <code>deploy</code> option, there is an environment variable named <code>GITHUB_TOKEN</code>, and I have specified its value to be a GitHub personal access token via the Travis settings of this repository, so that Travis will be able to write to my repository after the website is built. The option <code>on</code> specifies that the deployment will only occur when the <code>master</code> branch is built. The <code>local_dir</code> option is the publish directory, which should default to <code>public</code> in Hugo. By default, the website is pushed to the <code>gh-pages</code> branch of this repository. The <code>fqdn</code> option specifies the custom domain of the website. I have set a CNAME record (see Appendix <a href="#domain-name"><strong>??</strong></a>) to point <code>travis-blogdown.yihui.name</code> to <code>yihui.github.io</code>, so that GitHub is able to serve this website through this domain (in fact, Travis will write a <code>CNAME</code> file containing the domain to the <code>gh-pages</code> branch).</p></li>
+</ul>
+<p>If you use the <code>username.github.io</code> repository on GitHub, the website must be pushed to its <code>master</code> branch instead of <code>gh-pages</code> (this is the only exception). I recommend that you separate the source repository and the output repository. For example, you may have a <code>website-source</code> repository with the same settings as the above <code>.travis.yml</code> except for two new options under <code>deploy</code>:</p>
+<pre class="yaml"><code>deploy:
+  ...
+  repo: username/username.github.io
+  target_branch: master</code></pre>
+<p>This means the website will be pushed to the <code>master</code> branch of the repository <code>username/username.github.io</code> (remember to replace <code>username</code> with your actual username).</p>
+<p>You can also deploy your website to Amazon S3, and the setup on the R side is very similar to what we have introduced for GitHub Pages. The only difference is in the last step, where you change the target from GitHub Pages to Amazon S3. For more information, please see the documentation on Travis: <a href="https://docs.travis-ci.com/user/deployment/s3/" class="uri">https://docs.travis-ci.com/user/deployment/s3/</a>.</p>
+</div>
+<div id="gitlab-pages" class="section level2">
+<h2>GitLab Pages</h2>
+<p>GitLab (<a href="http://gitlab.com" class="uri">http://gitlab.com</a>) is a very popular way to host the source code of your project. GitLab has a <a href="https://about.gitlab.com/features/gitlab-ci-cd/">built in Continuous Integration &amp; Deployment (CI/CD) service</a> that can be used to host static websites, named <a href="https://about.gitlab.com/features/pages/">GitLab Pages</a>. The major advantage of using GitLab Pages is that you will be able to compile all your Rmd posts through its CI/CD service instead of your local computer and any generated content, such as HTML files, will be automatically copied to the web server. Please note that this approach has similar issues as the Travis + GitHub approach in Section <a href="#travis-github"><strong>??</strong></a>.</p>
+<p>GitLab’s CI/CD service uses the instructions stored in the YAML file <code>.gitlab-ci.yml</code> in the repository. Here is a sample configuration file <code>.gitlab-ci.yml</code> from the example repository <a href="https://gitlab.com/rgaiacs/blogdown-gitlab" class="uri">https://gitlab.com/rgaiacs/blogdown-gitlab</a>:</p>
+<pre class="yaml"><code>image: debian:buster-slim
+
+before_script:
+  - apt-get update &amp;&amp; apt-get -y install pandoc r-base
+  - R -e &quot;install.packages(&#39;blogdown&#39;,repos=&#39;http://cran.rstudio.com&#39;)&quot;
+  - R -e &quot;blogdown::install_hugo()&quot;
+
+pages:
+  script:
+    - R -e &quot;blogdown::build_site()&quot;
+  artifacts:
+    paths:
+      - public
+  only:
+    - master</code></pre>
+<p>The <code>image</code> option specifies what <a href="https://www.docker.com">Docker</a> image will be use as a start point. We are using a Debian image but any image from <a href="https://hub.docker.com/">Docker Hub</a> can be used. Other settings and options are similar to <code>.travis.yml</code> in Section <a href="#travis-github"><strong>??</strong></a>. The above example generates the website at <a href="https://rgaiacs.gitlab.io/blogdown-gitlab" class="uri">https://rgaiacs.gitlab.io/blogdown-gitlab</a>.</p>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>You can easily find other similar services if you use your search engine.<a href="#fnref1">↩</a></p></li>
+<li id="fn2"><p>You don’t have to keep the <code>*.netlify.com</code> domain. See Appendix <a href="#domain-name"><strong>??</strong></a> for more information.<a href="#fnref2">↩</a></p></li>
+<li id="fn3"><p>Please bear in mind that the purpose of this section is to outline the basic steps of publishing a website with Netlify, and the technical details may change from time to time, so the official Netlify documentation should be the most reliable source if you have any questions or anything we introduced here does not work.<a href="#fnref3">↩</a></p></li>
+<li id="fn4"><p>If the contents of your <code>blogdown</code> site are not in the root directory of your GIT repository, Netlify will not build.<a href="#fnref4">↩</a></p></li>
+<li id="fn5"><p>You can add <code>public</code> to <code>.gitignore</code> to ignore it in GIT.<a href="#fnref5">↩</a></p></li>
+<li id="fn6"><p>By the time when this book is published, the version 0.24.1 may be too old.<a href="#fnref6">↩</a></p></li>
+<li id="fn7"><p>This is called “continuous deployment.”<a href="#fnref7">↩</a></p></li>
+<li id="fn8"><p>See Appendix <a href="#domain-name"><strong>??</strong></a> for more information.<a href="#fnref8">↩</a></p></li>
+<li id="fn9"><p>GitHub Pages uses a Jekyll plugin to write an <code>HTTP-REFRESH</code> meta tag to redirect pages, and Netlify can do pattern-based 301 or 302 redirects, which can notify search engines that certain pages have been moved (permanently or temporarily).<a href="#fnref9">↩</a></p></li>
+<li id="fn10"><p>You may use the R function <code>file.create('.nojekyll')</code> to create this file if you do not know how to do this.<a href="#fnref10">↩</a></p></li>
+</ol>
+</div>
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="label label-default" href="/tags/xxx/">xxx</a>
+  
+</div>
+
+
+
+
+    
+    
+
+    
+
+    
+
+
+  </div>
+</article>
+
+<footer class="site-footer">
+  <div class="container">
+
+    
+    <p class="powered-by">
+      <a href="/privacy/">Privacy Policy</a>
+    </p>
+    
+
+    <p class="powered-by">
+
+      &copy; 2018 Friedolin Merhout &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/search.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    <script src="/js/search.js"></script>
+    
+
+    
+    
+
+  </body>
+</html>
+

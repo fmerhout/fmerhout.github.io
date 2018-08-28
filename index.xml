@@ -28,9 +28,145 @@
       <pubDate>Wed, 22 Aug 2018 00:00:00 -0400</pubDate>
       
       <guid>/post/textnets-tutorial/</guid>
-      <description>&lt;p&gt;I am excited to be given the opportunity to co-host a tutorial on the &lt;a href=&#34;https://github.com/cbail/textnets/&#34; target=&#34;_blank&#34;&gt;textnets&lt;/a&gt; package for R at the &lt;a href=&#34;http://symposium.computationalsocialscience.eu/2018/&#34; target=&#34;_blank&#34;&gt;2018 European Symposium Series on Societal Challenges&lt;/a&gt; with my amazing colleagues &lt;a href=&#34;http://www.taylorwhittenbrown.com/&#34; target=&#34;_blank&#34;&gt;Taylor Whitten Brown&lt;/a&gt; and &lt;a href=&#34;http://marcusmann.net/&#34; target=&#34;_blank&#34;&gt;Marcus Mann&lt;/a&gt;. The symposium will take place in Cologne, Germany from December 5 to 7 with our workshop and many more scheduled for the first day of the event.&lt;/p&gt;
+      <description>
 
-&lt;p&gt;Feel free to bookmark this post as we will be updating it as we finalize the details for the tutorial.&lt;/p&gt;
+&lt;p&gt;I am excited to be given the opportunity to co-host a tutorial on the &lt;a href=&#34;https://github.com/cbail/textnets/&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;textnets&lt;/code&gt;&lt;/a&gt; package for R at the &lt;a href=&#34;http://symposium.computationalsocialscience.eu/2018/&#34; target=&#34;_blank&#34;&gt;2018 European Symposium Series on Societal Challenges&lt;/a&gt; with my amazing colleagues &lt;a href=&#34;http://www.taylorwhittenbrown.com/&#34; target=&#34;_blank&#34;&gt;Taylor Brown&lt;/a&gt; and &lt;a href=&#34;http://marcusmann.net/&#34; target=&#34;_blank&#34;&gt;Marcus Mann&lt;/a&gt;. The symposium will take place in Cologne, Germany from December 5 to 7 with our workshop and many more scheduled for the first day of the event.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;NB: This post describes the tentative schedule and will be updated as we finalize the details for the tutorial.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;general-info&#34;&gt;General info&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;organizers:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http:/fmerhout.github.io/&#34; target=&#34;_blank&#34;&gt;Friedolin Merhout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.taylorwhittenbrown.com/&#34; target=&#34;_blank&#34;&gt;Taylor W. Brown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http:///www.marcusmann.net/&#34; target=&#34;_blank&#34;&gt;Marcus L. Mann&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;location:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://symposium.computationalsocialscience.eu/2018/&#34; target=&#34;_blank&#34;&gt;Cologne. Details TBD.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;date:
+
+&lt;ul&gt;
+&lt;li&gt;December 5, 2018.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
+
+&lt;p&gt;The tutorial will introduce participants to a newly developed R package that leverages techniques from network analysis/graph theory to improve and innovate on approaches to automated text analysis. There is growing interest in automated detection of latent themes in large-scale, unstructured text data. While topic models have become a popular choice for such tasks, our alternative provides several significant advantages over these conventional &amp;ldquo;bag of words&amp;rdquo; models. Three distinct advantages of our network-based approach are: 1) the potential to apply the concept of triadic closure to identify the meaning of words, i.e. the meaning of any two connected words can be understood more accurately in the context of a third word; 2) the greater flexibility in document length compared to the generally required long texts for topic models, which is a significant advantage in an age where short social media messages are pervasive; and 3) the incorporation of recent advances in community detection, which provides an innovative way to group words and documents by leveraging clustering observed within networks.&lt;/p&gt;
+
+&lt;p&gt;Tutorial participants will acquire a robust understanding of the fundamentals of both automated text analysis and network analysis, and will be encouraged to explore how their combination can improve upon existing text analysis methods. The main objective of the tutorial will be to enable participants to apply &lt;code&gt;textnets&lt;/code&gt; methods to their own research questions using our R package. In doing so, participants will develop the skills to tailor the existing functionality of the package to their particular needs. As a second objective and in the spirit of open science, participants will be introduced to the tools and given the opportunity to contribute to our open-source repository on Github–suggesting changes or extending the functionality of the package for the benefit of future users.&lt;/p&gt;
+
+&lt;h2 id=&#34;schedule&#34;&gt;Schedule&lt;/h2&gt;
+
+&lt;p&gt;The tentative structure of the tutorial will be as follows:&lt;/p&gt;
+
+&lt;h4 id=&#34;introduction-and-motivation-for-the-textnets-package&#34;&gt;Introduction and motivation for the &lt;code&gt;textnets&lt;/code&gt; package&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What is automated text analysis, what are its applications, and what are its limitations?
+
+&lt;ul&gt;
+&lt;li&gt;History: Content analysis&lt;/li&gt;
+&lt;li&gt;Methods: Topic models and word embeddings&lt;/li&gt;
+&lt;li&gt;Limitations of current methods&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;What is network analysis and how can it address these limitations?
+
+&lt;ul&gt;
+&lt;li&gt;Network analysis basics: nodes, edges, network measures&lt;/li&gt;
+&lt;li&gt;Meaning from triadic relationships&lt;/li&gt;
+&lt;li&gt;Lower threshold for required text lengths&lt;/li&gt;
+&lt;li&gt;Two mode networks and their visual representation (documents connected by words and
+vice versa)&lt;/li&gt;
+&lt;li&gt;Network measures &amp;amp; community detection&lt;/li&gt;
+&lt;li&gt;Polar ties for opposing views on topic
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;introduction-of-the-package-and-example-application&#34;&gt;Introduction of the package and example application&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What is the textnets package, what are its functions and their arguments?
+
+&lt;ul&gt;
+&lt;li&gt;Input data format&lt;/li&gt;
+&lt;li&gt;Preparing text data&lt;/li&gt;
+&lt;li&gt;Creating text networks&lt;/li&gt;
+&lt;li&gt;Visualizing text networks&lt;/li&gt;
+&lt;li&gt;Interpreting text networks&lt;/li&gt;
+&lt;li&gt;Measuring brokerage&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;The US gun debate on Twitter - a textnets application
+
+&lt;ul&gt;
+&lt;li&gt;Introduction of corpora of tweets&lt;/li&gt;
+&lt;li&gt;Show preparation of tweets&lt;/li&gt;
+&lt;li&gt;Identifying communities in Twitter account text network&lt;/li&gt;
+&lt;li&gt;Identifying topics in communities
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;hands-on-example-application-and-brainstorming-application-ideas&#34;&gt;Hands-on example application and brainstorming application ideas&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;BYOData or try out textnets on a dataset we provide&lt;/li&gt;
+&lt;li&gt;Small group discussions to identify promising applications&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;concluding-presentations-and-discussion&#34;&gt;Concluding presentations and discussion&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Present participant-generated text networks&lt;/li&gt;
+&lt;li&gt;Discussion of brainstorming ideas&lt;/li&gt;
+&lt;li&gt;Future textnets developments&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Friedolin Merhout&#34; href=&#34;/img/fmerhout-thumbnail.jpg&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;/img/fmerhout-thumbnail.jpg&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Taylor W. Brown&#34; href=&#34;/img/twb.jpg&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;/img/twb.jpg&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Marcus L. Mann&#34; href=&#34;/img/mlm.jpg&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;/img/mlm.jpg&#34;&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
 
 &lt;!---
 **Academic** is a framework to help you create a beautiful website quickly. Perfect for personal sites, blogs, or business/project sites. [Check out the latest demo](https://themes.gohugo.io/theme/academic/) of what you&#39;ll get in less than 10 minutes. Then head on over to the [Quick Start guide](https://sourcethemes.com/academic/docs/) or take a look at the [Release Notes](https://sourcethemes.com/academic/updates/).
@@ -161,6 +297,184 @@ Released under the [MIT](https://github.com/gcushen/hugo-academic/blob/master/LI
       
       <guid>/talk/example-talk/</guid>
       <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://sourcethemes.com/academic/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/post/03-deploy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/post/03-deploy/</guid>
+      <description>&lt;div id=&#34;deployment&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Deployment&lt;/h1&gt;
+&lt;p&gt;Since the website is basically a folder containing static files, it is much easier to deploy than websites that require dynamic server-side languages such as PHP or databases. All you need is to upload the files to a server, and usually your website will be up and running shortly. The key question is which web server you want to use. If you do not have your own server, you may try the ones listed in this chapter. Most of them are free (except Amazon S3), or at least provide free plans. Disclaimer: the authors of this book are not affiliated with any of these services or companies, and there is no guarantee that these services will be provided forever.&lt;a href=&#34;#fn1&#34; class=&#34;footnoteRef&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Considering the cost and friendliness to beginners, we currently recommend Netlify (&lt;a href=&#34;https://www.netlify.com&#34; class=&#34;uri&#34;&gt;https://www.netlify.com&lt;/a&gt;). It provides a free plan that actually has quite a lot of useful features. If you have no experience in publishing websites before, just log in using your GitHub account or other accounts, drag the &lt;code&gt;public/&lt;/code&gt; folder built by &lt;strong&gt;blogdown&lt;/strong&gt; for your website to the Netlify page, and your website will be online in a few seconds with a random subdomain name of the form &lt;code&gt;random-word-12345.netlify.com&lt;/code&gt; provided by Netlify (you can customize the name). You can easily automate this process (see Section &lt;a href=&#34;#netlify&#34;&gt;&lt;strong&gt;??&lt;/strong&gt;&lt;/a&gt; for more details). You do not need to wrestle with &lt;code&gt;ssh&lt;/code&gt; or &lt;code&gt;rsync -zrvce&lt;/code&gt; anymore, if you know what these commands mean.&lt;/p&gt;
+&lt;p&gt;The second easiest solution may be Updog (&lt;a href=&#34;https://updog.co&#34; class=&#34;uri&#34;&gt;https://updog.co&lt;/a&gt;), which features Dropbox integration. Publishing a website can be as easy as copying the files under the &lt;code&gt;public/&lt;/code&gt; folder of your &lt;strong&gt;blogdown&lt;/strong&gt; website to a Dropbox folder. The free plan of Updog only provides limited features, and its paid plan will give you access to much richer features.&lt;/p&gt;
+&lt;p&gt;If you do not mind using command-line tools or are familiar with GIT/GitHub, you can certainly consider services like GitHub Pages, Travis CI, or Amazon S3 to build or host your websites. No matter which service you use, please keep in mind that none of them can really lock you in and you are always free to change the service. As we have mentioned before, one great advantage of &lt;strong&gt;blogdown&lt;/strong&gt; is that your website will be a folder of static files that you can move to any web server.&lt;/p&gt;
+&lt;div id=&#34;netlify&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Netlify&lt;/h2&gt;
+&lt;p&gt;As we just mentioned, Netlify allows you to quickly publish a website by uploading the &lt;code&gt;public/&lt;/code&gt; folder through its web interface, and you will be assigned a random subdomain &lt;code&gt;*.netlify.com&lt;/code&gt;.&lt;a href=&#34;#fn2&#34; class=&#34;footnoteRef&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; This approach is good for those websites that are not updated frequently (or at all). However, it is unlikely that you will not need to update your website, so we introduce a better approach in this section,&lt;a href=&#34;#fn3&#34; class=&#34;footnoteRef&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt; which will take you a few more minutes to complete the configurations. Once it is properly configured, all you need to do in the future is to update the source repository, and Netlify will call Hugo to render your website automatically.&lt;/p&gt;
+&lt;p&gt;Basically, you have to host all source files of your website in a GIT repository.&lt;a href=&#34;#fn4&#34; class=&#34;footnoteRef&#34; id=&#34;fnref4&#34;&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt; You do not need to put the &lt;code&gt;public/&lt;/code&gt; directory under version control&lt;a href=&#34;#fn5&#34; class=&#34;footnoteRef&#34; id=&#34;fnref5&#34;&gt;&lt;sup&gt;5&lt;/sup&gt;&lt;/a&gt; because it will be automatically generated. Currently, Netlify supports GIT repositories hosted on GitHub, GitLab, and BitBucket. With any of these accounts, you can log into Netlify from its homepage and follow the guide to create a new site from your GIT repository.&lt;/p&gt;
+&lt;p&gt;Netlify supports several static website generators, including Jekyll and Hugo. For a new site, you have to specify a command to build your website, as well as the path of the publish directory. Netlify also supports multiple versions of Hugo, so the build command can be the default &lt;code&gt;hugo&lt;/code&gt;. The default version is 0.17, which is too old, and we recommend that you use at least version 0.20. To specify a Hugo version greater or equal to 0.20, you need to create an environment variable &lt;code&gt;HUGO_VERSION&lt;/code&gt; on Netlify. See the &lt;a href=&#34;https://www.netlify.com/docs/continuous-deployment/&#34;&gt;Netlify documentation&lt;/a&gt; for more information. The publish directory should be &lt;code&gt;public&lt;/code&gt; unless you have changed it in your &lt;code&gt;config.toml&lt;/code&gt;. Figure &lt;a href=&#34;#fig:netlify-settings&#34;&gt;1&lt;/a&gt; shows the settings of the website &lt;a href=&#34;https://t.yihui.name&#34; class=&#34;uri&#34;&gt;https://t.yihui.name&lt;/a&gt;. You do not have to follow the exact settings for your own website; in particular, you may need to change the value of the environment variable &lt;code&gt;HUGO_VERSION&lt;/code&gt; to a recent version of Hugo.&lt;a href=&#34;#fn6&#34; class=&#34;footnoteRef&#34; id=&#34;fnref6&#34;&gt;&lt;sup&gt;6&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:netlify-settings&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;images/netlify-settings.png&#34; alt=&#34;Example settings of a website deployed on Netlify.&#34; width=&#34;100%&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: Example settings of a website deployed on Netlify.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;It may take a minute or two to deploy your website on Netlify for the first time, but it can be much faster later (a few seconds) when you update your website source, because Netlify deploys incremental changes in the &lt;code&gt;public/&lt;/code&gt; directory, i.e., only the newer files compared to the last time are deployed.&lt;/p&gt;
+&lt;p&gt;After your GIT repository is connected with Netlify, the last issue you may want to solve is the domain name, unless you are satisfied with the free Netlify subdomain. If you want to use a different domain, you need to configure some DNS records of the domain to point it to the Netlify server. See Appendix &lt;a href=&#34;#domain-name&#34;&gt;&lt;strong&gt;??&lt;/strong&gt;&lt;/a&gt; for some background knowledge on domain names.&lt;/p&gt;
+&lt;p&gt;If you are not familiar with domain names or do not want to learn more about them, something to consider is a free subdomain &lt;code&gt;*.rbind.io&lt;/code&gt; offered by RStudio, Inc. Please visit the Rbind support website &lt;a href=&#34;https://support.rbind.io&#34; class=&#34;uri&#34;&gt;https://support.rbind.io&lt;/a&gt; to learn how to apply for a subdomain. In fact, the Rbind organization also offers free help on how to set up a website based on &lt;strong&gt;blogdown&lt;/strong&gt;, thanks to a lot of volunteers from the R and statistics community.&lt;/p&gt;
+&lt;p&gt;Netlify is the only solution in this chapter that does not require you to prebuild your website. You only need to update the source files, push them to GitHub, and Netlify will build the website for you.&lt;a href=&#34;#fn7&#34; class=&#34;footnoteRef&#34; id=&#34;fnref7&#34;&gt;&lt;sup&gt;7&lt;/sup&gt;&lt;/a&gt; The rest of the solutions in this chapter will require you to build your website locally and upload the &lt;code&gt;public/&lt;/code&gt; folder explicitly or implicitly. That said, you can certainly prebuild your website using any tools, push it to GitHub, and Netlify is still able to deploy it for you. What you need to do is leave the build command empty, and tell Netlify your publish directory (e.g., Hugo’s default &lt;code&gt;public/&lt;/code&gt;, but if your prebuilt website is under the root directory, specify &lt;code&gt;.&lt;/code&gt; as the publish directory instead). Then Netlify simply uploads all files under this directory to its servers without rebuilding your website.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;updog&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Updog&lt;/h2&gt;
+&lt;p&gt;Updog (&lt;a href=&#34;https://updog.co&#34; class=&#34;uri&#34;&gt;https://updog.co&lt;/a&gt;) provides a simple service: it turns a specified Dropbox (or Google Drive) folder into a website. The idea is that you grant Updog the permission to read the folder, and it will act as a middleman to serve your files under this folder to your visitors. This folder has to be accessed via a domain name, and Updog offers a free subdomain &lt;code&gt;*.updog.co&lt;/code&gt;. For example, if you have assigned the domain &lt;code&gt;example.updog.co&lt;/code&gt; to your Dropbox folder, and a visitor wants to see the page &lt;code&gt;https://example.updog.co/foo/index.html&lt;/code&gt;, Updog will read the file &lt;code&gt;foo/index.html&lt;/code&gt; in your Dropbox folder and display it to the visitor.&lt;/p&gt;
+&lt;p&gt;At the moment, Updog’s free plan only allows one website per account and will insert a footer “Hosted on Updog” on your web pages. You may not like these limitations. The major benefit of using Updog is that publishing a website becomes implicit since Dropbox will continuously sync files. All you need to do is to make sure your website is generated to the correct Dropbox folder. This can be easily achieved by setting the option &lt;code&gt;publishDir&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt;. For example, suppose the folder that you assign to Updog is &lt;code&gt;~/Dropbox/Apps/updog/my-website/&lt;/code&gt;, and your source folder is at &lt;code&gt;~/Dropbox/Apps/updog/my-source/&lt;/code&gt;, then you can set &lt;code&gt;publishDir: &amp;quot;../my-website&amp;quot;&lt;/code&gt; in &lt;code&gt;~/Dropbox/Apps/updog/my-source/config.toml&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;You can also use your custom domain name if you do not want the default Updog subdomain, and you only need to point the CNAME record of your domain name to the Updog subdomain.&lt;a href=&#34;#fn8&#34; class=&#34;footnoteRef&#34; id=&#34;fnref8&#34;&gt;&lt;sup&gt;8&lt;/sup&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;github-pages&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;GitHub Pages&lt;/h2&gt;
+&lt;p&gt;GitHub Pages (&lt;a href=&#34;https://pages.github.com&#34; class=&#34;uri&#34;&gt;https://pages.github.com&lt;/a&gt;)  is a very popular way to host static websites (especially those built with Jekyll), but its advantages are not obvious or appealing compared to Netlify. We recommend that you consider Netlify + Hugo due to these reasons:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Redirecting URLs is awkward with GitHub Pages but much more straightforward with Netlify.&lt;a href=&#34;#fn9&#34; class=&#34;footnoteRef&#34; id=&#34;fnref9&#34;&gt;&lt;sup&gt;9&lt;/sup&gt;&lt;/a&gt; This is important especially when you have an old website that you want to migrate to Hugo; some links may be broken, in which case you can easily redirect them with Netlify.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;One of the best features of Netlify that is not available with GitHub Pages is that Netlify can generate a unique website for preview when a GitHub pull request is submitted to your GitHub repository. This is extremely useful when someone else (or even yourself) proposes changes to your website, since you have a chance to see what the website would look like before you merge the pull request.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Basically, Netlify can do everything that GitHub Pages can, but there is still one little missing feature, which is closely tied to GitHub itself, which is GitHub &lt;a href=&#34;https://help.github.com/articles/user-organization-and-project-pages/&#34;&gt;Project Pages.&lt;/a&gt; This feature allows you to have project websites in separate repositories, e.g., you may have two independent websites &lt;code&gt;https://username.github.io/proj-a/&lt;/code&gt; and &lt;code&gt;https://username.github.io/proj-b/&lt;/code&gt;, corresponding to GitHub repositories &lt;code&gt;username/proj-a&lt;/code&gt; and &lt;code&gt;username/proj-b&lt;/code&gt;, respectively. However, since you can connect any GitHub repositories with Netlify, and each repository can be associated with a domain or subdomain name, you may replace GitHub Project Pages with different subdomains like &lt;code&gt;proj-a.netlify.com&lt;/code&gt; and &lt;code&gt;proj-b.netlify.com&lt;/code&gt;. The actual limitation is that you cannot use subpaths in the URL but you can use any (sub)domain names.&lt;/p&gt;
+&lt;p&gt;Although GitHub does not officially support Hugo (only Jekyll is supported), you can actually publish any static HTML files on GitHub Pages, even if they are not built with Jekyll. The first requirement for using GitHub Pages is that you have to create a GitHub repository named &lt;code&gt;username.github.io&lt;/code&gt; under your account (replace &lt;code&gt;username&lt;/code&gt; with your actual GitHub username), and what’s left is to push your website files to this repository. The comprehensive documentation of GitHub Pages is at &lt;a href=&#34;https://pages.github.com&#34; class=&#34;uri&#34;&gt;https://pages.github.com&lt;/a&gt;, and please ignore anything related to Jekyll there unless you actually use Jekyll instead of Hugo. To make sure GitHub does not rebuild your website using Jekyll and just publish whatever files you push to the repository, you need to create a (hidden) file named &lt;code&gt;.nojekyll&lt;/code&gt; in the repository.&lt;a href=&#34;#fn10&#34; class=&#34;footnoteRef&#34; id=&#34;fnref10&#34;&gt;&lt;sup&gt;10&lt;/sup&gt;&lt;/a&gt; GitHub offers a free subdomain &lt;code&gt;username.github.io&lt;/code&gt;, and you can use your own domain name by configuring its A or CNAME records to point it to GitHub Pages (consult the GitHub Pages documentation for instructions).&lt;/p&gt;
+&lt;p&gt;Your &lt;code&gt;public/&lt;/code&gt; directory should be the GIT repository. You have two possible choices for setting up this repository locally. The first choice is to follow the default structure of a Hugo website like the diagram below, and initialize the GIT repository under the &lt;code&gt;public/&lt;/code&gt; directory:&lt;/p&gt;
+&lt;pre class=&#34;bash&#34;&gt;&lt;code&gt;source/
+│
+├── config.toml
+├── content/
+├── themes/
+├── ...
+└── public/
+    |
+    ├── .git/
+    ├── .nojekyll
+    ├── index.html
+    ├── about/
+    └── ...&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you know how to use the command line, change the working directory to &lt;code&gt;public/&lt;/code&gt;, and initialize the GIT repository there:&lt;/p&gt;
+&lt;pre class=&#34;bash&#34;&gt;&lt;code&gt;cd public
+git init
+git remote add origin https://github.com/username/username.github.io&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The other choice is to clone the GitHub repository you created to the same directory as your website source:&lt;/p&gt;
+&lt;pre class=&#34;bash&#34;&gt;&lt;code&gt;git clone https://github.com/username/username.github.io&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And the structure looks like this:&lt;/p&gt;
+&lt;pre class=&#34;bash&#34;&gt;&lt;code&gt;source/
+│
+├── config.toml
+├── content/
+├── themes/
+└── ...
+
+username.github.io/
+│
+├── .git/
+├── .nojekyll
+├── index.html
+├── about/
+└── ...&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The source directory and the &lt;code&gt;username.github.io&lt;/code&gt; directory are under the same parent directory. In this case, you need to set the option &lt;code&gt;publishDir: &amp;quot;../username.github.io&amp;quot;&lt;/code&gt; in &lt;code&gt;source/config.toml&lt;/code&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;travis-github&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Travis + GitHub&lt;/h2&gt;
+&lt;p&gt;If  you decide not to follow our recommendation to use Netlify to deploy your website, we should warn you that the approach in this section will require substantial knowledge about GIT, GitHub, Travis CI (&lt;a href=&#34;https://travis-ci.org&#34; class=&#34;uri&#34;&gt;https://travis-ci.org&lt;/a&gt;), and the Linux command line, which we will leave for you to learn on your own. The major advantage of publishing via Travis CI is that you can compile all your Rmd posts on Travis CI (on the cloud) instead of your local computer.&lt;/p&gt;
+&lt;p&gt;In case you are not familiar with Travis, it is a service to continuously check your software in a virtual machine whenever you push changes to GitHub. It is primarily for testing software, but since you can run a lot of commands in its virtual machine, you can certainly use the virtual machine to do other things, e.g., install R and the &lt;strong&gt;blogdown&lt;/strong&gt; package to build websites. Before I show you how, I’d like to mention two issues that you should be aware of:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Personally, I prefer taking a look at the output in GIT to see the changes when I have any output that is dynamically computed from R, so that I know for sure what I’m going to publish exactly. With Travis, it is somewhat unpredictable because it is fully automatic and you do not have a chance to see the new content or results to be published. There are many factors that could affect building the site: the R version, availability of certain R packages, system dependencies, and network connection, etc.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The time required to compile all Rmd files may be very long and cause timeouts on Travis, depending on how time-consuming your R code is. There is a caching mechanism in &lt;strong&gt;blogdown&lt;/strong&gt; to speed up the building of your site (see Section &lt;a href=&#34;#methods&#34;&gt;&lt;strong&gt;??&lt;/strong&gt;&lt;/a&gt;), and if you use Travis to build your website, you will not benefit from this caching mechanism unless you take advantage of Travis’s caching. You have to cache the directories &lt;code&gt;content/&lt;/code&gt;, &lt;code&gt;static/&lt;/code&gt;, and &lt;code&gt;blogdown/&lt;/code&gt;, but Travis’s cache is a little fragile in my experience. Sometimes the cache may be purged for unknown reasons. What is more, you cannot directly cache &lt;code&gt;content/&lt;/code&gt; and &lt;code&gt;static/&lt;/code&gt;, because Travis clones your repository before restoring the cache, which means old files from the cached &lt;code&gt;content/&lt;/code&gt; and &lt;code&gt;static/&lt;/code&gt; may overwrite new files you pushed to GitHub.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The second problem can be solved, but I do not want to explain how in this book since the solution is too involved. If you really want to use Travis to build your website and run into this problem, you may file an issue to the GitHub repository &lt;a href=&#34;https://github.com/yihui/travis-blogdown&#34; class=&#34;uri&#34;&gt;https://github.com/yihui/travis-blogdown&lt;/a&gt;. In fact, this repository is a minimal example I created to show how to build a website on Travis and publish to GitHub Pages.&lt;/p&gt;
+&lt;p&gt;The Travis documentation shows how to deploy a site to GitHub Pages: &lt;a href=&#34;https://docs.travis-ci.com/user/deployment/pages/&#34; class=&#34;uri&#34;&gt;https://docs.travis-ci.com/user/deployment/pages/&lt;/a&gt;, but does not show how to build a site. Here is the Travis configuration file, &lt;code&gt;.travis.yml&lt;/code&gt;, for the &lt;code&gt;travis-blogdown&lt;/code&gt; repository:&lt;/p&gt;
+&lt;pre class=&#34;yaml&#34;&gt;&lt;code&gt;language: r
+dist: trusty
+sudo: false
+
+branches:
+  only:
+    - master
+
+cache:
+  packages: yes
+  directories:
+    - $HOME/bin
+
+before_script:
+  - &amp;quot;Rscript -e &amp;#39;blogdown::install_hugo()&amp;#39;&amp;quot;
+
+script:
+  - &amp;quot;Rscript -e &amp;#39;blogdown::build_site()&amp;#39;&amp;quot;
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  on:
+    branch: master
+  local_dir: public
+  fqdn: travis-blogdown.yihui.name&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The key is that we install Hugo via &lt;code&gt;blogdown::install_hugo()&lt;/code&gt; and build the site via &lt;code&gt;blogdown::build_site()&lt;/code&gt;. To trick Travis into building this repository like an R package, you must have a &lt;code&gt;DESCRIPTION&lt;/code&gt; file in the repository, otherwise your website will not be built.&lt;/p&gt;
+&lt;pre class=&#34;yaml&#34;&gt;&lt;code&gt;Package: placeholder
+Type: Website
+Title: Does not matter.
+Version: 0.0.1
+Imports: blogdown
+Remotes: rstudio/blogdown&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;There are a few more things to explain and emphasize in &lt;code&gt;.travis.yml&lt;/code&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The &lt;code&gt;branches&lt;/code&gt; option specifies that only changes in the &lt;code&gt;master&lt;/code&gt; branch will trigger building on Travis.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;The &lt;code&gt;cache&lt;/code&gt; option specifies all R packages to be cached, so the next time it will be faster to build the site (R packages do not need to be reinstalled from source). The &lt;code&gt;bin/&lt;/code&gt; directory in the home directory is also cached because Hugo is installed there, and the next time Hugo does not need to be reinstalled.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;For the &lt;code&gt;deploy&lt;/code&gt; option, there is an environment variable named &lt;code&gt;GITHUB_TOKEN&lt;/code&gt;, and I have specified its value to be a GitHub personal access token via the Travis settings of this repository, so that Travis will be able to write to my repository after the website is built. The option &lt;code&gt;on&lt;/code&gt; specifies that the deployment will only occur when the &lt;code&gt;master&lt;/code&gt; branch is built. The &lt;code&gt;local_dir&lt;/code&gt; option is the publish directory, which should default to &lt;code&gt;public&lt;/code&gt; in Hugo. By default, the website is pushed to the &lt;code&gt;gh-pages&lt;/code&gt; branch of this repository. The &lt;code&gt;fqdn&lt;/code&gt; option specifies the custom domain of the website. I have set a CNAME record (see Appendix &lt;a href=&#34;#domain-name&#34;&gt;&lt;strong&gt;??&lt;/strong&gt;&lt;/a&gt;) to point &lt;code&gt;travis-blogdown.yihui.name&lt;/code&gt; to &lt;code&gt;yihui.github.io&lt;/code&gt;, so that GitHub is able to serve this website through this domain (in fact, Travis will write a &lt;code&gt;CNAME&lt;/code&gt; file containing the domain to the &lt;code&gt;gh-pages&lt;/code&gt; branch).&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you use the &lt;code&gt;username.github.io&lt;/code&gt; repository on GitHub, the website must be pushed to its &lt;code&gt;master&lt;/code&gt; branch instead of &lt;code&gt;gh-pages&lt;/code&gt; (this is the only exception). I recommend that you separate the source repository and the output repository. For example, you may have a &lt;code&gt;website-source&lt;/code&gt; repository with the same settings as the above &lt;code&gt;.travis.yml&lt;/code&gt; except for two new options under &lt;code&gt;deploy&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class=&#34;yaml&#34;&gt;&lt;code&gt;deploy:
+  ...
+  repo: username/username.github.io
+  target_branch: master&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This means the website will be pushed to the &lt;code&gt;master&lt;/code&gt; branch of the repository &lt;code&gt;username/username.github.io&lt;/code&gt; (remember to replace &lt;code&gt;username&lt;/code&gt; with your actual username).&lt;/p&gt;
+&lt;p&gt;You can also deploy your website to Amazon S3, and the setup on the R side is very similar to what we have introduced for GitHub Pages. The only difference is in the last step, where you change the target from GitHub Pages to Amazon S3. For more information, please see the documentation on Travis: &lt;a href=&#34;https://docs.travis-ci.com/user/deployment/s3/&#34; class=&#34;uri&#34;&gt;https://docs.travis-ci.com/user/deployment/s3/&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;gitlab-pages&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;GitLab Pages&lt;/h2&gt;
+&lt;p&gt;GitLab (&lt;a href=&#34;http://gitlab.com&#34; class=&#34;uri&#34;&gt;http://gitlab.com&lt;/a&gt;) is a very popular way to host the source code of your project. GitLab has a &lt;a href=&#34;https://about.gitlab.com/features/gitlab-ci-cd/&#34;&gt;built in Continuous Integration &amp;amp; Deployment (CI/CD) service&lt;/a&gt; that can be used to host static websites, named &lt;a href=&#34;https://about.gitlab.com/features/pages/&#34;&gt;GitLab Pages&lt;/a&gt;. The major advantage of using GitLab Pages is that you will be able to compile all your Rmd posts through its CI/CD service instead of your local computer and any generated content, such as HTML files, will be automatically copied to the web server. Please note that this approach has similar issues as the Travis + GitHub approach in Section &lt;a href=&#34;#travis-github&#34;&gt;&lt;strong&gt;??&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;GitLab’s CI/CD service uses the instructions stored in the YAML file &lt;code&gt;.gitlab-ci.yml&lt;/code&gt; in the repository. Here is a sample configuration file &lt;code&gt;.gitlab-ci.yml&lt;/code&gt; from the example repository &lt;a href=&#34;https://gitlab.com/rgaiacs/blogdown-gitlab&#34; class=&#34;uri&#34;&gt;https://gitlab.com/rgaiacs/blogdown-gitlab&lt;/a&gt;:&lt;/p&gt;
+&lt;pre class=&#34;yaml&#34;&gt;&lt;code&gt;image: debian:buster-slim
+
+before_script:
+  - apt-get update &amp;amp;&amp;amp; apt-get -y install pandoc r-base
+  - R -e &amp;quot;install.packages(&amp;#39;blogdown&amp;#39;,repos=&amp;#39;http://cran.rstudio.com&amp;#39;)&amp;quot;
+  - R -e &amp;quot;blogdown::install_hugo()&amp;quot;
+
+pages:
+  script:
+    - R -e &amp;quot;blogdown::build_site()&amp;quot;
+  artifacts:
+    paths:
+      - public
+  only:
+    - master&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The &lt;code&gt;image&lt;/code&gt; option specifies what &lt;a href=&#34;https://www.docker.com&#34;&gt;Docker&lt;/a&gt; image will be use as a start point. We are using a Debian image but any image from &lt;a href=&#34;https://hub.docker.com/&#34;&gt;Docker Hub&lt;/a&gt; can be used. Other settings and options are similar to &lt;code&gt;.travis.yml&lt;/code&gt; in Section &lt;a href=&#34;#travis-github&#34;&gt;&lt;strong&gt;??&lt;/strong&gt;&lt;/a&gt;. The above example generates the website at &lt;a href=&#34;https://rgaiacs.gitlab.io/blogdown-gitlab&#34; class=&#34;uri&#34;&gt;https://rgaiacs.gitlab.io/blogdown-gitlab&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;You can easily find other similar services if you use your search engine.&lt;a href=&#34;#fnref1&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;You don’t have to keep the &lt;code&gt;*.netlify.com&lt;/code&gt; domain. See Appendix &lt;a href=&#34;#domain-name&#34;&gt;&lt;strong&gt;??&lt;/strong&gt;&lt;/a&gt; for more information.&lt;a href=&#34;#fnref2&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;Please bear in mind that the purpose of this section is to outline the basic steps of publishing a website with Netlify, and the technical details may change from time to time, so the official Netlify documentation should be the most reliable source if you have any questions or anything we introduced here does not work.&lt;a href=&#34;#fnref3&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn4&#34;&gt;&lt;p&gt;If the contents of your &lt;code&gt;blogdown&lt;/code&gt; site are not in the root directory of your GIT repository, Netlify will not build.&lt;a href=&#34;#fnref4&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn5&#34;&gt;&lt;p&gt;You can add &lt;code&gt;public&lt;/code&gt; to &lt;code&gt;.gitignore&lt;/code&gt; to ignore it in GIT.&lt;a href=&#34;#fnref5&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn6&#34;&gt;&lt;p&gt;By the time when this book is published, the version 0.24.1 may be too old.&lt;a href=&#34;#fnref6&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn7&#34;&gt;&lt;p&gt;This is called “continuous deployment.”&lt;a href=&#34;#fnref7&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn8&#34;&gt;&lt;p&gt;See Appendix &lt;a href=&#34;#domain-name&#34;&gt;&lt;strong&gt;??&lt;/strong&gt;&lt;/a&gt; for more information.&lt;a href=&#34;#fnref8&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn9&#34;&gt;&lt;p&gt;GitHub Pages uses a Jekyll plugin to write an &lt;code&gt;HTTP-REFRESH&lt;/code&gt; meta tag to redirect pages, and Netlify can do pattern-based 301 or 302 redirects, which can notify search engines that certain pages have been moved (permanently or temporarily).&lt;a href=&#34;#fnref9&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn10&#34;&gt;&lt;p&gt;You may use the R function &lt;code&gt;file.create(&#39;.nojekyll&#39;)&lt;/code&gt; to create this file if you do not know how to do this.&lt;a href=&#34;#fnref10&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
 </description>
     </item>
     

@@ -97,7 +97,7 @@
   
   <meta property="article:published_time" content="2018-08-22T00:00:00-04:00">
   
-  <meta property="article:modified_time" content="2018-08-22T00:00:00-04:00">
+  <meta property="article:modified_time" content="2018-08-28T00:00:00-04:00">
   
 
   
@@ -162,7 +162,7 @@
         
 
         <li class="nav-item">
-          <a href="/#publications_selected">
+          <a href="/#publications">
             
             <span>Publications</span>
             
@@ -273,9 +273,11 @@
 
   <span class="article-date">
     
+        Last updated on
+    
     <meta content="2018-08-22 00:00:00 -0400 EDT" itemprop="datePublished">
-    <time datetime="2018-08-22 00:00:00 -0400 EDT" itemprop="dateModified">
-      Aug 22, 2018
+    <time datetime="2018-08-28 00:00:00 -0400 EDT" itemprop="dateModified">
+      Aug 28, 2018
     </time>
   </span>
   <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
@@ -285,7 +287,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    1 min read
+    3 min read
   </span>
   
 
@@ -342,9 +344,145 @@
 
 
     <div class="article-style" itemprop="articleBody">
-      <p>I am excited to be given the opportunity to co-host a tutorial on the <a href="https://github.com/cbail/textnets/" target="_blank">textnets</a> package for R at the <a href="http://symposium.computationalsocialscience.eu/2018/" target="_blank">2018 European Symposium Series on Societal Challenges</a> with my amazing colleagues <a href="http://www.taylorwhittenbrown.com/" target="_blank">Taylor Whitten Brown</a> and <a href="http://marcusmann.net/" target="_blank">Marcus Mann</a>. The symposium will take place in Cologne, Germany from December 5 to 7 with our workshop and many more scheduled for the first day of the event.</p>
+      
 
-<p>Feel free to bookmark this post as we will be updating it as we finalize the details for the tutorial.</p>
+<p>I am excited to be given the opportunity to co-host a tutorial on the <a href="https://github.com/cbail/textnets/" target="_blank"><code>textnets</code></a> package for R at the <a href="http://symposium.computationalsocialscience.eu/2018/" target="_blank">2018 European Symposium Series on Societal Challenges</a> with my amazing colleagues <a href="http://www.taylorwhittenbrown.com/" target="_blank">Taylor Brown</a> and <a href="http://marcusmann.net/" target="_blank">Marcus Mann</a>. The symposium will take place in Cologne, Germany from December 5 to 7 with our workshop and many more scheduled for the first day of the event.</p>
+
+<p><em>NB: This post describes the tentative schedule and will be updated as we finalize the details for the tutorial.</em></p>
+
+<h2 id="general-info">General info</h2>
+
+<ul>
+<li>organizers:
+
+<ul>
+<li><a href="http:/fmerhout.github.io/" target="_blank">Friedolin Merhout</a></li>
+<li><a href="http://www.taylorwhittenbrown.com/" target="_blank">Taylor W. Brown</a></li>
+<li><a href="http:///www.marcusmann.net/" target="_blank">Marcus L. Mann</a></li>
+</ul></li>
+<li>location:
+
+<ul>
+<li><a href="http://symposium.computationalsocialscience.eu/2018/" target="_blank">Cologne. Details TBD.</a></li>
+</ul></li>
+<li>date:
+
+<ul>
+<li>December 5, 2018.</li>
+</ul></li>
+</ul>
+
+<h2 id="description">Description</h2>
+
+<p>The tutorial will introduce participants to a newly developed R package that leverages techniques from network analysis/graph theory to improve and innovate on approaches to automated text analysis. There is growing interest in automated detection of latent themes in large-scale, unstructured text data. While topic models have become a popular choice for such tasks, our alternative provides several significant advantages over these conventional &ldquo;bag of words&rdquo; models. Three distinct advantages of our network-based approach are: 1) the potential to apply the concept of triadic closure to identify the meaning of words, i.e. the meaning of any two connected words can be understood more accurately in the context of a third word; 2) the greater flexibility in document length compared to the generally required long texts for topic models, which is a significant advantage in an age where short social media messages are pervasive; and 3) the incorporation of recent advances in community detection, which provides an innovative way to group words and documents by leveraging clustering observed within networks.</p>
+
+<p>Tutorial participants will acquire a robust understanding of the fundamentals of both automated text analysis and network analysis, and will be encouraged to explore how their combination can improve upon existing text analysis methods. The main objective of the tutorial will be to enable participants to apply <code>textnets</code> methods to their own research questions using our R package. In doing so, participants will develop the skills to tailor the existing functionality of the package to their particular needs. As a second objective and in the spirit of open science, participants will be introduced to the tools and given the opportunity to contribute to our open-source repository on Github–suggesting changes or extending the functionality of the package for the benefit of future users.</p>
+
+<h2 id="schedule">Schedule</h2>
+
+<p>The tentative structure of the tutorial will be as follows:</p>
+
+<h4 id="introduction-and-motivation-for-the-textnets-package">Introduction and motivation for the <code>textnets</code> package</h4>
+
+<ul>
+<li>What is automated text analysis, what are its applications, and what are its limitations?
+
+<ul>
+<li>History: Content analysis</li>
+<li>Methods: Topic models and word embeddings</li>
+<li>Limitations of current methods</li>
+</ul></li>
+<li>What is network analysis and how can it address these limitations?
+
+<ul>
+<li>Network analysis basics: nodes, edges, network measures</li>
+<li>Meaning from triadic relationships</li>
+<li>Lower threshold for required text lengths</li>
+<li>Two mode networks and their visual representation (documents connected by words and
+vice versa)</li>
+<li>Network measures &amp; community detection</li>
+<li>Polar ties for opposing views on topic
+<br /></li>
+</ul></li>
+</ul>
+
+<h4 id="introduction-of-the-package-and-example-application">Introduction of the package and example application</h4>
+
+<ul>
+<li>What is the textnets package, what are its functions and their arguments?
+
+<ul>
+<li>Input data format</li>
+<li>Preparing text data</li>
+<li>Creating text networks</li>
+<li>Visualizing text networks</li>
+<li>Interpreting text networks</li>
+<li>Measuring brokerage</li>
+</ul></li>
+<li>The US gun debate on Twitter - a textnets application
+
+<ul>
+<li>Introduction of corpora of tweets</li>
+<li>Show preparation of tweets</li>
+<li>Identifying communities in Twitter account text network</li>
+<li>Identifying topics in communities
+<br /></li>
+</ul></li>
+</ul>
+
+<h4 id="hands-on-example-application-and-brainstorming-application-ideas">Hands-on example application and brainstorming application ideas</h4>
+
+<ul>
+<li>BYOData or try out textnets on a dataset we provide</li>
+<li>Small group discussions to identify promising applications</li>
+</ul>
+
+<h4 id="concluding-presentations-and-discussion">Concluding presentations and discussion</h4>
+
+<ul>
+<li>Present participant-generated text networks</li>
+<li>Discussion of brainstorming ideas</li>
+<li>Future textnets developments</li>
+</ul>
+
+
+
+<div class="gallery">
+  
+  
+  
+  
+    
+      
+    
+  
+  <a data-fancybox="gallery-1" data-caption="Friedolin Merhout" href="/img/fmerhout-thumbnail.jpg">
+    <img alt="" src="/img/fmerhout-thumbnail.jpg">
+  </a>
+  
+  
+  
+  
+    
+      
+    
+  
+  <a data-fancybox="gallery-1" data-caption="Taylor W. Brown" href="/img/twb.jpg">
+    <img alt="" src="/img/twb.jpg">
+  </a>
+  
+  
+  
+  
+    
+      
+    
+  
+  <a data-fancybox="gallery-1" data-caption="Marcus L. Mann" href="/img/mlm.jpg">
+    <img alt="" src="/img/mlm.jpg">
+  </a>
+  
+</div>
 
 <!---
 **Academic** is a framework to help you create a beautiful website quickly. Perfect for personal sites, blogs, or business/project sites. [Check out the latest demo](https://themes.gohugo.io/theme/academic/) of what you'll get in less than 10 minutes. Then head on over to the [Quick Start guide](https://sourcethemes.com/academic/docs/) or take a look at the [Release Notes](https://sourcethemes.com/academic/updates/).
