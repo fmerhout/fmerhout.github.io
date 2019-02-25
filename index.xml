@@ -11,6 +11,97 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Summer Institute in Computational Social Science 2019, Los Angeles Partner Site</title>
+      <link>/post/sicss-ucla/</link>
+      <pubDate>Sat, 23 Feb 2019 00:00:00 -0500</pubDate>
+      
+      <guid>/post/sicss-ucla/</guid>
+      <description>
+
+&lt;p&gt;I am excited to announce that I will be co-organizing a partner site for the 2019 Summer Institute in Computational Social Science (SICSS) together with &lt;a href=&#34;https://soc.ucla.edu/grads/alina-arseniev-koehler&#34; target=&#34;_blank&#34;&gt;Alina Arseniev-Koehler&lt;/a&gt; and &lt;a href=&#34;http://www.profjenniebrand.com/&#34; target=&#34;_blank&#34;&gt;Jennie E. Brand&lt;/a&gt; in beautiful Southern California.
+&lt;a href=&#34;https://compsocialscience.github.io/summer-institute/2019/los-angeles/&#34; target=&#34;_blank&#34;&gt;SICSS-Los Angeles&lt;/a&gt; will run from Monday, June 17 to Friday, June 28, 2019 at the University of California at Los Angeles (UCLA). Thanks to generous funding from the &lt;a href=&#34;https://ccpr.ucla.edu/&#34; target=&#34;_blank&#34;&gt;California Center for Population Research (CCPR)&lt;/a&gt; there is no cost to participate, and we will provide refreshments for all on-site days.&lt;/p&gt;
+
+&lt;p&gt;The purpose of the Summer Institute is to bring together graduate students, postdoctoral researchers, and early career faculty interested in computational social science. The Summer Institute is open to both social scientists and data scientists, broadly conceived. In coordination with the main Summer Institute site at Princeton, we will cover topics ranging from text analysis and online field experiments to and digital data collection and ethics. The Los Angeles partner site will additionally add a site-specific focus on machine-learning methods for causal inference.&lt;/p&gt;
+
+&lt;p&gt;Applications are open through April 14, 11:59 PM PST, to all interested individuals regardless of location. Details about eligibility and application procedures can be found &lt;a href=&#34;https://compsocialscience.github.io/summer-institute/2019/los-angeles/apply&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;NB: We are in the process of finalizing the schedule and will post updates to the partner site website as they become available.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;general-info&#34;&gt;General info&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;organizers:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http:/fmerhout.github.io/&#34; target=&#34;_blank&#34;&gt;Friedolin Merhout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://soc.ucla.edu/grads/alina-arseniev-koehler&#34; target=&#34;_blank&#34;&gt;Alina Arseniev-Koehler&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.profjenniebrand.com//&#34; target=&#34;_blank&#34;&gt;Jennie E. Brand&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;location:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://compsocialscience.github.io/summer-institute/2019/los-angeles/&#34; target=&#34;_blank&#34;&gt;UCLA, Details TBD.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;date:
+
+&lt;ul&gt;
+&lt;li&gt;June 17-28, 2019.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Friedolin Merhout&#34; href=&#34;/img/fmerhout-thumbnail.jpg&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;/img/fmerhout-thumbnail.jpg&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Alina Arseniev-Koehler&#34; href=&#34;/img/akoehler.jpg&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;/img/akoehler.jpg&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;Jennie E. Brand&#34; href=&#34;/img/jbrand-thumbnail.jpg&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;/img/jbrand-thumbnail.jpg&#34;&gt;
+  &lt;/a&gt;
+  
+  
+  
+  
+    
+      
+    
+  
+  &lt;a data-fancybox=&#34;gallery-1&#34; data-caption=&#34;The California Center for Population Research sponsors SICSS-Los Angeles&#34; href=&#34;/img/CCPR-logo.png&#34;&gt;
+    &lt;img alt=&#34;&#34; src=&#34;/img/CCPR-logo.png&#34;&gt;
+  &lt;/a&gt;
+  
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Exposure to opposing views on social media can increase political polarization</title>
       <link>/publication/bail-etal-2018/</link>
       <pubDate>Tue, 28 Aug 2018 00:00:00 -0400</pubDate>
