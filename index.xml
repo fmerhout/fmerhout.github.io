@@ -7,13 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Friedolin Merhout</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0200</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Summer Institute in Computational Social Science 2019, Los Angeles Partner Site</title>
       <link>/post/sicss-ucla/</link>
-      <pubDate>Sat, 23 Feb 2019 00:00:00 -0500</pubDate>
+      <pubDate>Sat, 23 Feb 2019 00:00:00 +0100</pubDate>
       
       <guid>/post/sicss-ucla/</guid>
       <description>
@@ -104,7 +104,7 @@
     <item>
       <title>Exposure to opposing views on social media can increase political polarization</title>
       <link>/publication/bail-etal-2018/</link>
-      <pubDate>Tue, 28 Aug 2018 00:00:00 -0400</pubDate>
+      <pubDate>Tue, 28 Aug 2018 00:00:00 +0200</pubDate>
       
       <guid>/publication/bail-etal-2018/</guid>
       <description></description>
@@ -113,7 +113,7 @@
     <item>
       <title>Quantitative Text Analysis of NSDAP Member Autobiographies</title>
       <link>/project/nazi-biograms/</link>
-      <pubDate>Wed, 22 Aug 2018 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0200</pubDate>
       
       <guid>/project/nazi-biograms/</guid>
       <description>&lt;p&gt;The Hoover Institution recently finished digitizing &lt;a href=&#34;https://www.hoover.org/news/newly-digitized-nazi-biograms-now-available&#34; target=&#34;_blank&#34;&gt;586 Nazi biograms collected by Theodore Abel&lt;/a&gt;, professor of sociology at Columbia University from 1929 to 1950. Abel gathered these documents a year after Hitler&amp;rsquo;s appointment as chancellor by setting up a contest offering 400 German marks &amp;ldquo;for the best personal life history of an adherent of the Hitler movement.&amp;rdquo; The collection which represents a sample of 2.5% of early NSDAP members forms the basis for Abel&amp;rsquo;s insightful book &lt;a href=&#34;http://www.hup.harvard.edu/catalog.php?isbn=9780674952003&#34; target=&#34;_blank&#34;&gt;Why Hitler Came Into Power&lt;/a&gt; published in 1938.&lt;/p&gt;
@@ -125,7 +125,7 @@
     <item>
       <title>textnets tutorial at #eurocss</title>
       <link>/post/textnets-tutorial/</link>
-      <pubDate>Wed, 22 Aug 2018 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0200</pubDate>
       
       <guid>/post/textnets-tutorial/</guid>
       <description>
@@ -374,7 +374,7 @@ Released under the [MIT](https://github.com/gcushen/hugo-academic/blob/master/LI
     <item>
       <title>Using Internet search data to examine the relationship between anti-Muslim and pro-ISIS sentiment in U.S. counties</title>
       <link>/publication/bail-merhout-ding-2018-copy/</link>
-      <pubDate>Tue, 21 Aug 2018 00:00:00 -0400</pubDate>
+      <pubDate>Tue, 21 Aug 2018 00:00:00 +0200</pubDate>
       
       <guid>/publication/bail-merhout-ding-2018-copy/</guid>
       <description></description>
@@ -383,7 +383,7 @@ Released under the [MIT](https://github.com/gcushen/hugo-academic/blob/master/LI
     <item>
       <title>Privacy Policy</title>
       <link>/privacy/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 -0400</pubDate>
+      <pubDate>Thu, 28 Jun 2018 00:00:00 +0200</pubDate>
       
       <guid>/privacy/</guid>
       <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
@@ -393,7 +393,7 @@ Released under the [MIT](https://github.com/gcushen/hugo-academic/blob/master/LI
     <item>
       <title>Example Talk</title>
       <link>/talk/example-talk/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
       
       <guid>/talk/example-talk/</guid>
       <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://sourcethemes.com/academic/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;

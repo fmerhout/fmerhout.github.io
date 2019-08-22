@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 Friedolin Merhout</copyright>
-    <lastBuildDate>Wed, 22 Aug 2018 00:00:00 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 22 Aug 2018 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="/tags/textnets/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Quantitative Text Analysis of NSDAP Member Autobiographies</title>
       <link>/project/nazi-biograms/</link>
-      <pubDate>Wed, 22 Aug 2018 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0200</pubDate>
       
       <guid>/project/nazi-biograms/</guid>
       <description>The Hoover Institution recently finished digitizing 586 Nazi biograms collected by Theodore Abel, professor of sociology at Columbia University from 1929 to 1950. Abel gathered these documents a year after Hitler&amp;rsquo;s appointment as chancellor by setting up a contest offering 400 German marks &amp;ldquo;for the best personal life history of an adherent of the Hitler movement.&amp;rdquo; The collection which represents a sample of 2.5% of early NSDAP members forms the basis for Abel&amp;rsquo;s insightful book Why Hitler Came Into Power published in 1938.</description>
@@ -24,7 +24,7 @@
     <item>
       <title>textnets tutorial at #eurocss</title>
       <link>/post/textnets-tutorial/</link>
-      <pubDate>Wed, 22 Aug 2018 00:00:00 -0400</pubDate>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0200</pubDate>
       
       <guid>/post/textnets-tutorial/</guid>
       <description>I am excited to be given the opportunity to co-host a tutorial on the textnets package for R at the 2018 European Symposium Series on Societal Challenges with my amazing colleagues Taylor Brown and Marcus Mann. The symposium will take place in Cologne, Germany from December 5 to 7 with our workshop and many more scheduled for the first day of the event.
