@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>Assessing the Russian Internet Research Agency’s impact on the political attitudes and behaviors of American Twitter users in late 2017</title>
+      <link>/publication/bail-etal-2020/</link>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/bail-etal-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Does Socioeconomic Status Determine Diet Quality if Food Access, Resources, and Nutrition Education are Equalized? An Exploration of College Student Diets</title>
       <link>/publication/merhout-doyle-2019/</link>
       <pubDate>Tue, 23 Jul 2019 00:00:00 +0200</pubDate>
@@ -37,6 +46,15 @@
       
       <guid>/publication/bail-merhout-ding-2018/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/publication/bail-etal-2020/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/bail-etal-2020/</guid>
+      <description>code{white-space: pre;} pre:not([class]) { background-color: white; }  if (window.hljs) { hljs.configure({languages: []}); hljs.initHighlightingOnLoad(); if (document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) { window.setTimeout(function() { hljs.initHighlighting(); }, 0); } }  h1 { font-size: 34px; } h1.title { font-size: 38px; } h2 { font-size: 30px; } h3 { font-size: 24px; } h4 { font-size: 18px; } h5 { font-size: 16px; } h6 { font-size: 12px; } .</description>
     </item>
     
   </channel>
