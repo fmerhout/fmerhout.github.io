@@ -55,6 +55,8 @@
     
 
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
 
     
 
@@ -924,21 +926,6 @@
     <div class="row isotope projects-container js-layout-masonry">
 
       
-      
-      
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-6 project-item isotope-item quantitative-text-analysis textnets nazi-biograms">
-        <div class="card">
-          
-          <div class="card-text">
-            <h4><a href="/project/nazi-biograms/" >Quantitative Text Analysis of NSDAP Member Autobiographies</a></h4>
-            <div class="card-desription">
-              <p>Analysis of Nazi biograms collected by Theodore Abel.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
 
     </div>
 
@@ -987,11 +974,6 @@
           
           
           
-          <a href="/tags/nazi-biograms/" style="font-size:0.8rem">Nazi biograms</a>
-        
-          
-          
-          
           <a href="/tags/sicss/" style="font-size:1.8725805810714777rem">SICSS</a>
         
           
@@ -1002,12 +984,7 @@
           
           
           
-          <a href="/tags/quantitative-text-analysis/" style="font-size:0.8rem">quantitative text analysis</a>
-        
-          
-          
-          
-          <a href="/tags/textnets/" style="font-size:1.8725805810714777rem">textnets</a>
+          <a href="/tags/textnets/" style="font-size:0.8rem">textnets</a>
         
           
           
@@ -1131,6 +1108,16 @@
     </ul>
 
     
+    <div class="hidden">
+      <input id="map-provider" value="2">
+      <input id="map-lat" value="55.687904">
+      <input id="map-lng" value="12.569517">
+      <input id="map-dir" value="Department of Sociology, University of Copenhagen, Øster Farimagsgade 5, DK-1353 Copenhagen K">
+      <input id="map-zoom" value="15">
+      <input id="map-api-key" value="">
+    </div>
+    <div id="map"></div>
+    
 
   </div>
 </div>
@@ -1152,7 +1139,7 @@
 
     <p class="powered-by">
 
-      &copy; 2018 Friedolin Merhout &middot; 
+      &copy; 2020 Friedolin Merhout &middot; 
 
       Powered by the
       <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
@@ -1222,6 +1209,8 @@
     
 
     
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
     
 
     

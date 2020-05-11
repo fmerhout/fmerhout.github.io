@@ -6,7 +6,7 @@
     <description>Recent content in Friedolin Merhout on Friedolin Merhout</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018 Friedolin Merhout</copyright>
+    <copyright>&amp;copy; 2020 Friedolin Merhout</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0200</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
@@ -263,18 +263,6 @@
       
       <guid>/publication/bail-etal-2018/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Quantitative Text Analysis of NSDAP Member Autobiographies</title>
-      <link>/project/nazi-biograms/</link>
-      <pubDate>Wed, 22 Aug 2018 00:00:00 +0200</pubDate>
-      
-      <guid>/project/nazi-biograms/</guid>
-      <description>&lt;p&gt;The Hoover Institution recently finished digitizing &lt;a href=&#34;https://www.hoover.org/news/newly-digitized-nazi-biograms-now-available&#34; target=&#34;_blank&#34;&gt;586 Nazi biograms collected by Theodore Abel&lt;/a&gt;, professor of sociology at Columbia University from 1929 to 1950. Abel gathered these documents a year after Hitler&amp;rsquo;s appointment as chancellor by setting up a contest offering 400 German marks &amp;ldquo;for the best personal life history of an adherent of the Hitler movement.&amp;rdquo; The collection which represents a sample of 2.5% of early NSDAP members forms the basis for Abel&amp;rsquo;s insightful book &lt;a href=&#34;http://www.hup.harvard.edu/catalog.php?isbn=9780674952003&#34; target=&#34;_blank&#34;&gt;Why Hitler Came Into Power&lt;/a&gt; published in 1938.&lt;/p&gt;
-
-&lt;p&gt;With the increasing sophistication of quantitative text analysis coinciding with the public release of the collection, we are now presented with the opportunity to reanalyze these data with computational methods. Earlier applications of such methods already highlighted the value of these data to reveal the &lt;a href=&#34;https://doi.org/10.1016/S0304-422X[99]00022-4&#34; target=&#34;_blank&#34;&gt;narrative structures of becoming and being a Nazi&lt;/a&gt;, but to leverage the full potential of new computational methods the complete collection needs to be converted into a machine readable format. To create these machine readable files, this project will use the optical character recognition software from the leader in the field ABBYY which is accessible through their cloud based &lt;a href=&#34;https://ocrsdk.com/&#34; target=&#34;_blank&#34;&gt;ABBYY OCR SDK&lt;/a&gt;.&lt;/p&gt;
-</description>
     </item>
     
     <item>
@@ -542,6 +530,16 @@ Released under the [MIT](https://github.com/gcushen/hugo-academic/blob/master/LI
       
       <guid>/privacy/</guid>
       <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Talk</title>
+      <link>/talk/example-talk/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      
+      <guid>/talk/example-talk/</guid>
+      <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://sourcethemes.com/academic/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
     
