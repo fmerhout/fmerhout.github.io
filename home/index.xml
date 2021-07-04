@@ -6,7 +6,7 @@
     <description>Recent content in Homes on Friedolin Merhout</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2020 Friedolin Merhout</copyright>
+    <copyright>&amp;copy; 2021 Friedolin Merhout</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
@@ -37,7 +37,7 @@
       <pubDate>Sun, 22 Sep 2019 00:00:00 +0200</pubDate>
       
       <guid>/home/about/</guid>
-      <description>Biography I am an Assistant Professor in the Department of Sociology at the University of Copenhagen where I am affiliated with the Copenhagen Center for Social Data Science (SODAS). In my research, I use computational and experimental methods to examine intergroup relations leveraging digital trace, text, survey, and administrative data. Before joining the UCPH faculty, I earned my B.A.from Freie Universität in my hometown Berlin, Germany, and my Ph.D. from Duke University, in Durham, North Carolina.</description>
+      <description>Biography I am an Assistant Professor in the Department of Sociology at the University of Copenhagen where I am affiliated with the Copenhagen Center for Social Data Science (SODAS) and teach in the interdisciplinary MSc in Social Data Science. In my research, I use computational and experimental methods to examine intergroup relations leveraging digital trace, text, survey, and administrative data. Before joining the UCPH faculty, I earned my B.A.from Freie Universität in my hometown Berlin, Germany, and my Ph.</description>
     </item>
     
     <item>
@@ -86,6 +86,17 @@
     </item>
     
     <item>
+      <title>Teaching</title>
+      <link>/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/home/teaching/</guid>
+      <description>I am teaching or co-teaching a number of classes at the University of Copenhagen ranging from political sociology to introductory Python.
+At the Department of Sociology, I (co-)instruct the following classes:
+ Introduction to R (Fall 2021) Contemporary Societal Problems (Fall 2021) More Than Words: Introduction to Quantitative Text Analysis (Spring 2021) Knowledge, Organization and Politics (Spring 2020)  In the MSc in Social Data Science, I (co-)instruct the following classes:</description>
+    </item>
+    
+    <item>
       <title>Recent Posts</title>
       <link>/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
@@ -101,17 +112,6 @@
       
       <guid>/home/projects/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Teaching</title>
-      <link>/home/teaching/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
-      
-      <guid>/home/teaching/</guid>
-      <description>This is an example of using the custom widget to create your own homepage section.
-I am a teaching instructor for the following courses at University X:
- CS101: An intro to computer science CS102: An intro to computer science CS103: An intro to computer science CS104: An intro to computer science CS105: An intro to computer science CS106: An intro to computer science CS107: An intro to computer science  </description>
     </item>
     
     <item>
