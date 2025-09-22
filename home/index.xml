@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Friedolin Merhout</title>
@@ -6,8 +6,8 @@
     <description>Recent content in Homes on Friedolin Merhout</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2021 Friedolin Merhout</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0200</lastBuildDate>
+    <copyright>&amp;copy; 2024 Friedolin Merhout</copyright>
+    <lastBuildDate>Sun, 22 Sep 2019 00:00:00 -0400</lastBuildDate>
     
 	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title></title>
       <link>/home/hero_carousel/</link>
-      <pubDate>Sun, 15 Oct 2017 00:00:00 +0200</pubDate>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 -0400</pubDate>
       
       <guid>/home/hero_carousel/</guid>
       <description></description>
@@ -24,17 +24,16 @@
     <item>
       <title>Academic</title>
       <link>/home/hero/</link>
-      <pubDate>Sun, 15 Oct 2017 00:00:00 +0200</pubDate>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 -0400</pubDate>
       
       <guid>/home/hero/</guid>
-      <description>The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes 🚀 Latest release  
-(function defer() { if (window.jQuery) { jQuery(document).ready(function(){ GetLatestReleaseInfo(); }); } else { setTimeout(function() { defer() }, 50); } })(); function GetLatestReleaseInfo() { $.getJSON(&#39;https://api.github.com/repos/gcushen/hugo-academic/tags&#39;).done(function (json) { let release = json[0]; // let downloadURL = release.zipball_url; $(&#39;#academic-release&#39;).text(&#39;Latest release &#39; + release.name); }); }  </description>
+      <description>The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes 🚀 Latest release   (function defer() { if (window.jQuery) { jQuery(document).ready(function(){ GetLatestReleaseInfo(); }); } else { setTimeout(function() { defer() }, 50); } })(); function GetLatestReleaseInfo() { $.getJSON(&#39;https://api.github.com/repos/gcushen/hugo-academic/tags&#39;).done(function (json) { let release = json[0]; // let downloadURL = release.zipball_url; $(&#39;#academic-release&#39;).text(&#39;Latest release &#39; + release.name); }); }  </description>
     </item>
     
     <item>
       <title></title>
       <link>/home/about/</link>
-      <pubDate>Sun, 22 Sep 2019 00:00:00 +0200</pubDate>
+      <pubDate>Sun, 22 Sep 2019 00:00:00 -0400</pubDate>
       
       <guid>/home/about/</guid>
       <description>Biography I am an Assistant Professor in the Department of Sociology at the University of Copenhagen and the Director of Graduate Studies (studieleder) for the interdisciplinary MSc in Social Data Science. At UCPH, I am also affiliated with the Copenhagen Center for Social Data Science (SODAS) and coordinate the Welfare, Inequality, and Mobility research group. In my research, I use computational and experimental methods to examine intergroup relations leveraging digital trace, text, survey, and administrative data.</description>
@@ -43,7 +42,7 @@
     <item>
       <title>Selected Publications</title>
       <link>/home/publications_selected/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>/home/publications_selected/</guid>
       <description></description>
@@ -61,7 +60,7 @@
     <item>
       <title>Recent Publications</title>
       <link>/home/publications/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>/home/publications/</guid>
       <description></description>
@@ -70,7 +69,7 @@
     <item>
       <title>Selected Talks</title>
       <link>/home/talks_selected/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>/home/talks_selected/</guid>
       <description></description>
@@ -79,7 +78,7 @@
     <item>
       <title>Recent &amp; Upcoming Talks</title>
       <link>/home/talks/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>/home/talks/</guid>
       <description></description>
@@ -88,7 +87,7 @@
     <item>
       <title>Teaching</title>
       <link>/home/teaching/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>/home/teaching/</guid>
       <description>I am teaching or co-teaching a number of classes at the University of Copenhagen ranging from political sociology to introductory Python and R.
@@ -99,7 +98,7 @@ At the Department of Sociology, I (co-)instruct the following classes:
     <item>
       <title>Recent Posts</title>
       <link>/home/posts/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>/home/posts/</guid>
       <description></description>
@@ -108,7 +107,7 @@ At the Department of Sociology, I (co-)instruct the following classes:
     <item>
       <title>Projects</title>
       <link>/home/projects/</link>
-      <pubDate>Wed, 22 Aug 2018 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 -0400</pubDate>
       
       <guid>/home/projects/</guid>
       <description></description>
@@ -117,7 +116,7 @@ At the Department of Sociology, I (co-)instruct the following classes:
     <item>
       <title>Tags</title>
       <link>/home/tags/</link>
-      <pubDate>Wed, 20 Sep 2017 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0400</pubDate>
       
       <guid>/home/tags/</guid>
       <description></description>
@@ -126,7 +125,7 @@ At the Department of Sociology, I (co-)instruct the following classes:
     <item>
       <title>Search</title>
       <link>/home/search/</link>
-      <pubDate>Mon, 23 Jul 2018 00:00:00 +0200</pubDate>
+      <pubDate>Mon, 23 Jul 2018 00:00:00 -0400</pubDate>
       
       <guid>/home/search/</guid>
       <description></description>
@@ -135,7 +134,7 @@ At the Department of Sociology, I (co-)instruct the following classes:
     <item>
       <title>Contact</title>
       <link>/home/contact/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
       
       <guid>/home/contact/</guid>
       <description></description>

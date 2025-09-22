@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>textnets on Friedolin Merhout</title>
@@ -6,8 +6,8 @@
     <description>Recent content in textnets on Friedolin Merhout</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2021 Friedolin Merhout</copyright>
-    <lastBuildDate>Wed, 22 Aug 2018 00:00:00 +0200</lastBuildDate>
+    <copyright>&amp;copy; 2024 Friedolin Merhout</copyright>
+    <lastBuildDate>Wed, 22 Aug 2018 00:00:00 -0400</lastBuildDate>
     
 	<atom:link href="/tags/textnets/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,29 +15,28 @@
     <item>
       <title>More Than Words: Introduction to Quantitative Text Analysis</title>
       <link>/teaching/mtw/</link>
-      <pubDate>Wed, 22 Aug 2018 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 -0400</pubDate>
       
       <guid>/teaching/mtw/</guid>
-      <description>This course was offered in the Spring 2021 at the University of Copenhagen&amp;rsquo;s Department of Sociology. The background readings for the course come from Gabriel Ignatow and Rada Mihalcea&amp;rsquo;s Text Mining: A Guidebook for the Social Sciences while much of the applied readings come from Julia Silge and David Robinson&amp;rsquo;s Text Mining with R and Emil Hvitfeldt and Julia Silge&amp;rsquo;s Supervised Machine Learning for Text Analysis in R. You can find the course syllabus here and further course information on the university&amp;rsquo;s course listing site.</description>
+      <description>An introductory level course for learning quantitative text analysis methods and their implementation in R.</description>
     </item>
     
     <item>
       <title>Quantitative Text Analysis of NSDAP Member Autobiographies</title>
       <link>/project/nazi-biograms/</link>
-      <pubDate>Wed, 22 Aug 2018 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 -0400</pubDate>
       
       <guid>/project/nazi-biograms/</guid>
-      <description>The Hoover Institution recently finished digitizing 586 Nazi biograms collected by Theodore Abel, professor of sociology at Columbia University from 1929 to 1950. Abel gathered these documents a year after Hitler&amp;rsquo;s appointment as chancellor by setting up a contest offering 400 German marks &amp;ldquo;for the best personal life history of an adherent of the Hitler movement.&amp;rdquo; The collection which represents a sample of 2.5% of early NSDAP members forms the basis for Abel&amp;rsquo;s insightful book Why Hitler Came Into Power published in 1938.</description>
+      <description>Analysis of Nazi biograms collected by Theodore Abel.</description>
     </item>
     
     <item>
       <title>textnets tutorial at #eurocss</title>
       <link>/post/textnets-tutorial/</link>
-      <pubDate>Wed, 22 Aug 2018 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 -0400</pubDate>
       
       <guid>/post/textnets-tutorial/</guid>
-      <description>I am excited to be given the opportunity to co-host a tutorial on the textnets package for R at the 2018 European Symposium Series on Societal Challenges with my amazing colleagues Taylor Brown and Marcus Mann. The symposium will take place in Cologne, Germany from December 5 to 7 with our workshop and many more scheduled for the first day of the event.
-NB: This post describes the tentative schedule and will be updated as we finalize the details for the tutorial.</description>
+      <description>Learn how to combine quantitative text analysis with graph theory in Cologne in December.</description>
     </item>
     
   </channel>

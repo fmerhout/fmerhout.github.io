@@ -1,133 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     
     <url>
     
-      <loc>/publication/bail-etal-2020/</loc>
-      <lastmod>2020-01-31T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/post/sicss-ucla-postmortem/</loc>
-      <lastmod>2019-08-22T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/publication/merhout-doyle-2019/</loc>
-      <lastmod>2019-07-23T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/post/sicss-ucla/</loc>
-      <lastmod>2019-02-23T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/publication/bail-etal-2018/</loc>
-      <lastmod>2018-08-28T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/teaching/mtw/</loc>
-      <lastmod>2018-08-22T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/project/nazi-biograms/</loc>
-      <lastmod>2018-08-22T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/post/textnets-tutorial/</loc>
-      <lastmod>2018-08-28T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/publication/bail-merhout-ding-2018/</loc>
-      <lastmod>2018-08-21T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/privacy/</loc>
-      <lastmod>2018-06-28T00:00:00+02:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/post/</loc>
-      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/publication/</loc>
-      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/talk/</loc>
-      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/eurocss/</loc>
-      <lastmod>2018-08-28T00:00:00+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>/publication_types/2/</loc>
-      <lastmod>2020-01-31T00:00:00+01:00</lastmod>
-      <priority>0</priority>
+      <lastmod>2020-01-31T00:00:00-05:00</lastmod>
     </url>
     
   
     
     <url>
     
-      <loc>/categories/</loc>
-      <priority>0</priority>
+      <loc>/publication/bail-etal-2020/</loc>
+      <lastmod>2020-01-31T00:00:00-05:00</lastmod>
     </url>
     
   
@@ -135,26 +20,7 @@
     <url>
     
       <loc>/</loc>
-      <lastmod>2017-10-15T00:00:00+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/nazi-biograms/</loc>
-      <lastmod>2018-08-22T00:00:00+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/project/</loc>
-      <lastmod>2018-08-22T00:00:00+02:00</lastmod>
-      <priority>0</priority>
+      <lastmod>2020-01-31T00:00:00-05:00</lastmod>
     </url>
     
   
@@ -162,44 +28,7 @@
     <url>
     
       <loc>/publication_types/</loc>
-      <lastmod>2020-01-31T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/r/</loc>
-      <lastmod>2018-08-22T00:00:00+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/sicss/</loc>
-      <lastmod>2019-08-22T00:00:00+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/</loc>
-      <lastmod>2018-08-28T00:00:00+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/teaching/</loc>
-      <lastmod>2018-08-22T00:00:00+02:00</lastmod>
-      <priority>0</priority>
+      <lastmod>2020-01-31T00:00:00-05:00</lastmod>
     </url>
     
   
@@ -207,26 +36,31 @@
     <url>
     
       <loc>/tags/computational-social-science/</loc>
-      <lastmod>2019-08-22T00:00:00+02:00</lastmod>
-      <priority>0</priority>
+      <lastmod>2019-08-22T00:00:00-04:00</lastmod>
     </url>
     
   
     
     <url>
     
-      <loc>/tags/quantitative-text-analysis/</loc>
-      <lastmod>2018-08-22T00:00:00+02:00</lastmod>
-      <priority>0</priority>
+      <loc>/post/sicss-ucla-postmortem/</loc>
+      <lastmod>2019-08-22T00:00:00-04:00</lastmod>
     </url>
     
   
     
     <url>
     
-      <loc>/tags/textnets/</loc>
-      <lastmod>2018-08-22T00:00:00+02:00</lastmod>
-      <priority>0</priority>
+      <loc>/tags/sicss/</loc>
+      <lastmod>2019-08-22T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/</loc>
+      <lastmod>2019-08-22T00:00:00-04:00</lastmod>
     </url>
     
   
@@ -234,8 +68,111 @@
     <url>
     
       <loc>/tags/ucla/</loc>
-      <lastmod>2019-08-22T00:00:00+02:00</lastmod>
-      <priority>0</priority>
+      <lastmod>2019-08-22T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/publication/merhout-doyle-2019/</loc>
+      <lastmod>2019-07-23T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/post/sicss-ucla/</loc>
+      <lastmod>2019-02-23T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/publication/bail-etal-2018/</loc>
+      <lastmod>2018-08-28T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/#eurocss/</loc>
+      <lastmod>2018-08-28T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/teaching/mtw/</loc>
+      <lastmod>2018-08-22T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/nazi-biograms/</loc>
+      <lastmod>2018-08-22T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/project/</loc>
+      <lastmod>2018-08-22T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/quantitative-text-analysis/</loc>
+      <lastmod>2018-08-22T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/project/nazi-biograms/</loc>
+      <lastmod>2018-08-22T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/r/</loc>
+      <lastmod>2018-08-22T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/teaching/</loc>
+      <lastmod>2018-08-22T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/textnets/</loc>
+      <lastmod>2018-08-28T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/post/textnets-tutorial/</loc>
+      <lastmod>2018-08-28T00:00:00-04:00</lastmod>
     </url>
     
   
@@ -243,8 +180,54 @@
     <url>
     
       <loc>/tags/workshop/</loc>
-      <lastmod>2018-08-28T00:00:00+02:00</lastmod>
-      <priority>0</priority>
+      <lastmod>2018-08-28T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/publication/bail-merhout-ding-2018/</loc>
+      <lastmod>2018-08-21T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/privacy/</loc>
+      <lastmod>2018-06-28T00:00:00-04:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/post/</loc>
+      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/publication/</loc>
+      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/talk/</loc>
+      <lastmod>2017-01-01T00:00:00-05:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/categories/</loc>
     </url>
     
   

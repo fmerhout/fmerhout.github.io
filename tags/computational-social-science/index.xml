@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>computational social science on Friedolin Merhout</title>
@@ -6,8 +6,8 @@
     <description>Recent content in computational social science on Friedolin Merhout</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2021 Friedolin Merhout</copyright>
-    <lastBuildDate>Thu, 22 Aug 2019 00:00:00 +0200</lastBuildDate>
+    <copyright>&amp;copy; 2024 Friedolin Merhout</copyright>
+    <lastBuildDate>Thu, 22 Aug 2019 00:00:00 -0400</lastBuildDate>
     
 	<atom:link href="/tags/computational-social-science/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,19 +15,19 @@
     <item>
       <title>Post-Mortem: SICSS 2019, Los Angeles Partner Site</title>
       <link>/post/sicss-ucla-postmortem/</link>
-      <pubDate>Thu, 22 Aug 2019 00:00:00 +0200</pubDate>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 -0400</pubDate>
       
       <guid>/post/sicss-ucla-postmortem/</guid>
-      <description>From June 17 to June 28, 2019, I had the pleasure of co-organizing the Summer Institute in Computational Social Science 2019 partner site in Los Angeles. Besides meeting 41 bright, inspiring young computational social science scholars from Southern California and beyond, I have been fortunate to work with my amazing co-organizers Alina Arseniev-Koehler, Bernard Koch, Marcel Roman, Pablo Geraldo, Mike Tzen, and Jennie E. Brand. The partner site was hosted by the California Center for Population Research (CCPR) at the University of California and used facilities at the Luskin School for Public Affairs.</description>
+      <description>Two-weeks of intense computational social sciencing in the rearview mirror.</description>
     </item>
     
     <item>
       <title>Summer Institute in Computational Social Science 2019, Los Angeles Partner Site</title>
       <link>/post/sicss-ucla/</link>
-      <pubDate>Sat, 23 Feb 2019 00:00:00 +0100</pubDate>
+      <pubDate>Sat, 23 Feb 2019 00:00:00 -0500</pubDate>
       
       <guid>/post/sicss-ucla/</guid>
-      <description>I am excited to announce that I will be co-organizing a partner site for the 2019 Summer Institute in Computational Social Science (SICSS) together with Alina Arseniev-Koehler and Jennie E. Brand in beautiful Southern California. SICSS-Los Angeles will run from Monday, June 17 to Friday, June 28, 2019 at the University of California at Los Angeles (UCLA). Thanks to generous funding from the California Center for Population Research (CCPR) there is no cost to participate, and we will provide refreshments for all on-site days.</description>
+      <description>Two-week immersive summer school for social and data scientists interested in computational social science.</description>
     </item>
     
   </channel>

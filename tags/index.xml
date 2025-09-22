@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Friedolin Merhout</title>
@@ -6,88 +6,88 @@
     <description>Recent content in Tags on Friedolin Merhout</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2021 Friedolin Merhout</copyright>
-    <lastBuildDate>Wed, 22 Aug 2018 00:00:00 +0200</lastBuildDate>
+    <copyright>&amp;copy; 2024 Friedolin Merhout</copyright>
+    <lastBuildDate>Thu, 22 Aug 2019 00:00:00 -0400</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>#eurocss</title>
-      <link>/tags/eurocss/</link>
-      <pubDate>Wed, 22 Aug 2018 00:00:00 +0200</pubDate>
-      
-      <guid>/tags/eurocss/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nazi biograms</title>
-      <link>/tags/nazi-biograms/</link>
-      <pubDate>Wed, 22 Aug 2018 00:00:00 +0200</pubDate>
-      
-      <guid>/tags/nazi-biograms/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>/tags/r/</link>
-      <pubDate>Wed, 22 Aug 2018 00:00:00 +0200</pubDate>
-      
-      <guid>/tags/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SICSS</title>
-      <link>/tags/sicss/</link>
-      <pubDate>Thu, 22 Aug 2019 00:00:00 +0200</pubDate>
-      
-      <guid>/tags/sicss/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>computational social science</title>
       <link>/tags/computational-social-science/</link>
-      <pubDate>Thu, 22 Aug 2019 00:00:00 +0200</pubDate>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 -0400</pubDate>
       
       <guid>/tags/computational-social-science/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>quantitative text analysis</title>
-      <link>/tags/quantitative-text-analysis/</link>
-      <pubDate>Wed, 22 Aug 2018 00:00:00 +0200</pubDate>
+      <title>SICSS</title>
+      <link>/tags/sicss/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 -0400</pubDate>
       
-      <guid>/tags/quantitative-text-analysis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>textnets</title>
-      <link>/tags/textnets/</link>
-      <pubDate>Wed, 22 Aug 2018 00:00:00 +0200</pubDate>
-      
-      <guid>/tags/textnets/</guid>
+      <guid>/tags/sicss/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ucla</title>
       <link>/tags/ucla/</link>
-      <pubDate>Thu, 22 Aug 2019 00:00:00 +0200</pubDate>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 -0400</pubDate>
       
       <guid>/tags/ucla/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>#eurocss</title>
+      <link>/tags/#eurocss/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/tags/#eurocss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nazi biograms</title>
+      <link>/tags/nazi-biograms/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/tags/nazi-biograms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>quantitative text analysis</title>
+      <link>/tags/quantitative-text-analysis/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/tags/quantitative-text-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>/tags/r/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>textnets</title>
+      <link>/tags/textnets/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 -0400</pubDate>
+      
+      <guid>/tags/textnets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>workshop</title>
       <link>/tags/workshop/</link>
-      <pubDate>Wed, 22 Aug 2018 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 -0400</pubDate>
       
       <guid>/tags/workshop/</guid>
       <description></description>

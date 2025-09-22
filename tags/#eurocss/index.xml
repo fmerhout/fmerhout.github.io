@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>#eurocss on Friedolin Merhout</title>
@@ -6,8 +6,8 @@
     <description>Recent content in #eurocss on Friedolin Merhout</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2020 Friedolin Merhout</copyright>
-    <lastBuildDate>Wed, 22 Aug 2018 00:00:00 +0200</lastBuildDate>
+    <copyright>&amp;copy; 2024 Friedolin Merhout</copyright>
+    <lastBuildDate>Wed, 22 Aug 2018 00:00:00 -0400</lastBuildDate>
     
 	<atom:link href="/tags/#eurocss/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,11 +15,10 @@
     <item>
       <title>textnets tutorial at #eurocss</title>
       <link>/post/textnets-tutorial/</link>
-      <pubDate>Wed, 22 Aug 2018 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 -0400</pubDate>
       
       <guid>/post/textnets-tutorial/</guid>
-      <description>I am excited to be given the opportunity to co-host a tutorial on the textnets package for R at the 2018 European Symposium Series on Societal Challenges with my amazing colleagues Taylor Brown and Marcus Mann. The symposium will take place in Cologne, Germany from December 5 to 7 with our workshop and many more scheduled for the first day of the event.
-NB: This post describes the tentative schedule and will be updated as we finalize the details for the tutorial.</description>
+      <description>Learn how to combine quantitative text analysis with graph theory in Cologne in December.</description>
     </item>
     
   </channel>
